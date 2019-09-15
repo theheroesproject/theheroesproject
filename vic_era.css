@@ -84,7 +84,7 @@ h1 {
 h2,h3,h4{
 	font-family: victorian_title, serif;
 	color:#8a2be2;
-	margin-top:5px;
+	margin-top:8px;
 	margin-bottom:5px;
 	text-align: center;
 	text-shadow: 1px 1px #fbf1e5;
@@ -144,10 +144,6 @@ header p::first-letter{
 footer p::first-letter{
 	all:unset;
 }
-p a{
-	text-decoration:none !important;
-	color:inherit;
-	}
 header{
 	margin-bottom:40px;
 	text-align:center;
