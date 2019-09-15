@@ -127,7 +127,9 @@ body{
 }
 
 
-main{
+main{	
+	-webkit-column-count: 2 !important; /* Chrome, Safari, Opera */
+  	-moz-column-count: 2 !important; /* Firefox */
 	column-count: 2 !important;
 	column-gap: 40px;
 	column-rule-style: dashed;
