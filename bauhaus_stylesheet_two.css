@@ -125,7 +125,9 @@ body{ text-transform: lowercase;
   
 }
 
-
+html {
+     background-color: #ecded1;
+}
 
 .flex-container{
 width: 100%;
@@ -351,6 +353,7 @@ text-transform: lowercase;
 color: #161615;
 text-align: right;
 margin-bottom: 10px;
+background-color: #ecded1;
 }
 
 
