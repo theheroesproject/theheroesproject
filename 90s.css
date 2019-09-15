@@ -22,7 +22,7 @@ body{
 	color:white;
 	}
 	
-#header nav, #footer nav{
+#header , #footer {
 	all:unset !important;
 	text-transform:lowercase;
 	color:#ffe700 !important;
