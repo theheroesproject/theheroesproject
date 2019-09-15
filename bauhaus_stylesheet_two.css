@@ -125,7 +125,7 @@ body{ text-transform: lowercase;
   
 }
 
-html {
+html {background-color: unset all;
      background-color: #ecded1;
 }
 
