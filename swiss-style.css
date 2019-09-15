@@ -22,12 +22,13 @@ body {
     -webkit-column-count: 3; /* Chrome, Safari, Opera */
   -moz-column-count: 3; /* Firefox */
   column-count: 3;
-  -webkit-column-gap: 60px; /* Chrome, Safari, Opera */
-  -moz-column-gap: 60px; /* Firefox */
-  column-gap: 60px;
+  -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+  -moz-column-gap: 40px; /* Firefox */
+  column-gap: 40px;
     column-rule-style: solid; 
   column-rule-width: 5px;
   column-rule-color:black;
+    
   
  
 }
@@ -42,7 +43,7 @@ header {
   background-size: cover;
   background-position: top;
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
-
+    column-span: all;
 }
 
 header > p {
@@ -178,7 +179,7 @@ main {
 }
 
 header img {
-
+    column-span: all;
 }
 
 
