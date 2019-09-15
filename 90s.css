@@ -255,10 +255,11 @@ li{
 }
 #header nav{
 	all:unset;
-	font-size:16px;
+	margin-top:0;
+	font-size:14px !important;
 	line-height:18px;
 	max-height:30px;
-	background:rgba(240,0,255,0.5);
+	background-color:rgba(240,0,255,0.5);
 }
 .col-ing div h3, .col-ita div h3{
 	margin-top:250px;
