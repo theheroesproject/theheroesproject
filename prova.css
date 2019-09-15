@@ -46,7 +46,7 @@ header{
 	padding-right: 20px;
 	padding-top: 20px;
 	width:100%;
-	position:relative;
+	
 	
 }
 
@@ -67,7 +67,7 @@ header p{
 
 #header nav {
 	all:unset;
-	font-size:7px;
+	font-size:10px;
 	transform:scale (1.3);
 }
 	 
