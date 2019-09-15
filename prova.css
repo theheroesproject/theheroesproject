@@ -143,7 +143,6 @@ main{
 	column-count: 2 !important;
 	column-gap: 40px;
 	column-rule-style: dashed;
-	column-fill: balance;
 	column-rule-color: white;
 	column-span:all;
 
