@@ -27,7 +27,7 @@ body{
 	overflow-x: hidden;
 
 	}
-a{
+ p a{
 	color:inherit !important
 }
 #header nav, #footer nav{
@@ -93,6 +93,7 @@ header {
 	text-align:center;
 	color:crimson;
 	margin-top:30px;
+	line-height:26px;
 }
 img {
    display: block;
