@@ -4,7 +4,7 @@
 }
 @font-face{
  font-family: game2;
-  src: url(Arcade.ttf);
+  src: url(Arcade.TTF);
 }
 @font-face{
 font-family:roco;
@@ -22,13 +22,15 @@ body{
 	color:white;
 	}
 	
-header #header{
-	all:unset !important;
-	font-family:game2;
-	font-size:16px;
-	max-height:35px;
-	margin-top:0
-	color:red;
+#header nav, #footer nav{
+	all:unset;
+	color:#74ee15 !important;
+	font-family:game1, sans-serif;
+	font-size:18px;
+	margin:auto;
+	line-height:24px;
+	max-height:35px !important;
+	background-color:rgba(211,211,211,0.5);
 }
 p{
 	font-weight:600;
