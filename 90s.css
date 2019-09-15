@@ -21,10 +21,16 @@ body{
 	margin-top:20px;
 	color:white;
 	}
-#header, #footer{
+	
+#header nav, #footer nav{
+	all:unset;
+	color:#ffe700 !important;
+	font-family:roco, sans-serif;
+	font-size:16px;
+	margin:auto;
+	line-height:24px;
+	max-height:40px !important;
 	background-color:#001eff;
-	color:#ffe700;
-	font-family:roco;
 }
 p{
 	font-weight:600;
