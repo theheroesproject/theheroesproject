@@ -40,6 +40,10 @@ code {
   padding: 0;
 }
 
+#header {
+  unset: all;
+}
+
 #footer {
   
   unset: all;
