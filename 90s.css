@@ -21,17 +21,7 @@ body{
 	margin-top:20px;
 	color:white;
 	}
-	
-#header nav, #footer nav{
-	all:unset;
-	color:#74ee15 !important;
-	font-family:game1, sans-serif;
-	font-size:18px;
-	margin:auto;
-	line-height:24px;
-	max-height:35px !important;
-	background-color:rgba(211,211,211,0.5);
-}
+
 p{
 	font-weight:600;
 	letter-spacing:1px;
@@ -176,6 +166,16 @@ header figcaption{
 	color:white;
 	margin-left:0;
 	text-align:justify;
+}
+#header nav, #footer nav{
+	all:unset;
+	color:#74ee15 !important;
+	font-family:game1, sans-serif;
+	font-size:18px;
+	margin:auto;
+	line-height:24px;
+	max-height:35px !important;
+	background-color:rgba(211,211,211,0.5);
 }
 div h3{
 	margin-top:25%;
