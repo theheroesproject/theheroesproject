@@ -148,7 +148,7 @@ main {
 
 
 
-header img {
+.bg img {
    max-width: 40%; 
   max-height: 40%;
  float: right;
@@ -160,7 +160,7 @@ header img {
 
 }
 
-header figcaption {
+.bg figcaption {
 
   color: white;
   font-size: 10px;
