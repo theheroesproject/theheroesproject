@@ -256,19 +256,10 @@ li{
 header #header{
 	all:unset;
 	margin-top:0;
-	top:0;
+	top:0 !important;
 	font-size:18px !important;
 	line-height:22px;
-	max-height:30px;
-	background-color:rgba(240,0,255,0.5);
-}
-footer #footer{
-	all:unset;
-	margin-bottom:0;
-	bottom:0;
-	font-size:18px !important;
-	line-height:22px;
-	max-height:30px;
+	max-height:35px;
 	background-color:rgba(240,0,255,0.5);
 }
 .col-ing div h3, .col-ita div h3{
