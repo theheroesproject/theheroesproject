@@ -19,6 +19,12 @@ body {
   margin: 0;
   padding: 0;
   background-color: #D3D3D3;
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+  -moz-column-count: 3; /* Firefox */
+  column-count: 3;
+  -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+  -moz-column-gap: 40px; /* Firefox */
+  column-gap: 40px;
   
  
 }
@@ -129,12 +135,6 @@ main {
   padding-left: 10px;
   padding-right: 300px;
   padding-bottom: 30px;
-  -webkit-column-count: 3; /* Chrome, Safari, Opera */
-  -moz-column-count: 3; /* Firefox */
-  column-count: 3;
-  -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
-  -moz-column-gap: 40px; /* Firefox */
-  column-gap: 40px;
   background-color: #D3D3D3;
   background-image: url("images/bk3.jpeg");
   background-size: contain;
