@@ -121,6 +121,7 @@ the stylesheet for the font*/
 
 body{ text-transform: lowercase;
   font-family: 'Work Sans';
+     background-color: #ecded1;
   
 }
 
