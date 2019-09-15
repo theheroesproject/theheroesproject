@@ -46,8 +46,10 @@ header{
 	padding-right: 20px;
 	padding-top: 20px;
 	width:100%;
+	position:absolute;
 	
 }
+
 header p{
 	 all:unset;
 	 background-image: url("images/giphy.gif");
@@ -63,8 +65,10 @@ header p{
 	padding-top: 20px;
  }
 
-#header nav header{
+#header nav {
 	all:unset;
+	font-size:7px;
+	transform:scale (1.3);
 }
 	 
 
