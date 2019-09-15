@@ -133,6 +133,7 @@ main{
 	column-rule-style: dashed;
 	column-fill: balance;
 	column-rule-color: white;
+	column-span:all;
 
 }
 
