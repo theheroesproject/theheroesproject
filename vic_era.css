@@ -27,9 +27,6 @@ body{
 	overflow-x: hidden;
 
 	}
- header p a{
-	color:inherit !important;
-}
 #header nav, #footer nav{
 	all:unset;
 	color:#8a2be2 !important;
