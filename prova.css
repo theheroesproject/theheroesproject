@@ -63,7 +63,7 @@ header p{
 	padding-top: 20px;
  }
 
-#header nav{
+#header nav header{
 	all:unset;
 }
 	 
