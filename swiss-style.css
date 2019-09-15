@@ -142,6 +142,7 @@ main {
     column-rule-style: solid; 
   column-rule-width: 5px;
   column-rule-color:black;
+    width: 100%;
 
 
 }
