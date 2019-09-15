@@ -27,8 +27,8 @@ body{
 	overflow-x: hidden;
 
 	}
- p a{
-	color:inherit !important
+ header p a{
+	color:inherit !important;
 }
 #header nav, #footer nav{
 	all:unset;
@@ -92,8 +92,7 @@ header {
 	font-family:victorian_basic, serif;
 	text-align:center;
 	color:crimson;
-	margin-top:30px;
-	line-height:26px;
+	line-height:26px !important;
 }
 img {
    display: block;
@@ -142,7 +141,7 @@ p a {
 	color:inherit;
 	}
 header{
-	margin-bottom:25px;
+	margin-bottom:40px;
 	text-align:center;
 	font-size:20px;
 	color:crimson;
