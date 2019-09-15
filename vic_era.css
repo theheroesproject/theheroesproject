@@ -28,6 +28,7 @@ body{
 
 	}
 #header nav, #footer nav{
+	all:unset;
 	color:#8a2be2;
 	font-family:victorian_basic, serif;
 	font-size:14px;
