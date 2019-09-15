@@ -42,7 +42,7 @@ code {
 
 #footer {
   
-  
+  unset: all;
   overflow: hidden;
   padding: 8px;
   position: fixed;
