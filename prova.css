@@ -46,7 +46,7 @@ header{
 	padding-right: 20px;
 	padding-top: 20px;
 	width:100%;
-	position:absolute;
+	
 }
 header p{
 	 all:unset;
@@ -63,7 +63,7 @@ header p{
 	padding-top: 20px;
  }
 
-header nav{
+#header nav{
 	all:unset;
 }
 	 
