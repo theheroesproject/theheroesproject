@@ -27,6 +27,9 @@ body{
 	overflow-x: hidden;
 
 	}
+a{
+	color:inherit !important
+}
 #header nav, #footer nav{
 	all:unset;
 	color:#8a2be2 !important;
@@ -89,6 +92,7 @@ header {
 	font-family:victorian_basic, serif;
 	text-align:center;
 	color:crimson;
+	margin-top:30px;
 }
 img {
    display: block;
