@@ -45,7 +45,7 @@ h1{
 	font-size:65px;
 	position:relative;
 	margin-left: 0px;
-	margin-bottom:20px;
+	margin-bottom:30px;
 	text-align:center;
 	width:100%;
 	padding:10px;
@@ -95,6 +95,12 @@ header {
 	text-align:center;
 	color:crimson;
 	line-height:26px !important;
+}
+header p a{
+	color:#8a2be2 !important;
+}
+table p a{
+	color:#fbf1e5 !important;
 }
 img {
    display: block;
