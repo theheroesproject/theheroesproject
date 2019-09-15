@@ -256,8 +256,18 @@ li{
 header #header{
 	all:unset;
 	margin-top:0;
-	font-size:14px !important;
-	line-height:18px;
+	top:0;
+	font-size:18px !important;
+	line-height:22px;
+	max-height:30px;
+	background-color:rgba(240,0,255,0.5);
+}
+footer #footer{
+	all:unset;
+	margin-bottom:0;
+	bottom:0;
+	font-size:18px !important;
+	line-height:22px;
 	max-height:30px;
 	background-color:rgba(240,0,255,0.5);
 }
