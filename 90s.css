@@ -1,0 +1,441 @@
+@font-face{
+ font-family: game1;
+  src: url(minimal-font.ttf);
+}
+@font-face{
+ font-family: game2;
+  src: url(Arcade.ttf);
+}
+@font-face{
+font-family:roco;
+  src: url(Roco.ttf)
+}
+body{
+	background-image: url("images/mario-smaller.gif");
+	background-repeat: repeat-y;
+	margin-left:70px;
+	margin-right:70px;
+	padding:0;
+	font-size:16px;
+	font-family: game1;
+	margin-top:20px;
+	color:white;
+	}
+#header, #footer{
+	background-color:#001eff;
+	color:#ffe700;
+	font-family:roco;
+}
+p{
+	font-weight:600;
+	letter-spacing:1px;
+	}
+h1 {
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 5s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  from {color: #ffe700;
+  	scale:0;}
+  to {color: #f000ff;
+  	scale:0.5;}
+  }
+  h1{
+	letter-spacing:5px;
+	font-family: roco;
+	position:absolute;
+	top:60px;
+	right:50px;
+	max-width:65%;
+	margin:0;
+	font-size: 5em;
+	color:#fff;
+	line-height:80px;
+	text-shadow: 0 0 20px #ff005b;
+	text-rendering:optimizeLegibility !important;
+}
+h1:after
+{
+	content:attr(data-text);
+	position:absolute;
+	top:0;
+	left:0;
+	padding: 0 20px;
+	z-index: -1;
+	color:#ff005b;
+	filter:blur(15px);
+}
+h1:before
+{
+	content:"";
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:-2;
+	opacity: .5;
+	filter:blur(40px);
+	margin-left:0;
+}
+header{
+  	margin-top:10%;
+  	font-family:roco;
+  	font-style:bold;
+  	width:100%;
+  	text-align:left;
+  	display:inline-block;
+  	color:yellow;
+  	margin-left:50px;
+  	margin-top:20%;
+  	padding-top:30px;
+  }
+ header:hover{
+  	color:#001eff;
+  	font-family:game2;
+  }
+main{
+  	margin-top:50px;
+ }
+p::first-letter {
+	color:#ffe700;
+	font-style:bold;
+	font-size:20px;
+}
+p:nth-child(odd) {
+  text-align: justify;
+  color:#4deeea;
+  margin-left:50px;
+  margin-right:300px;
+}
+p:nth-child(even) {
+  text-align: justify;
+  color:#F000FF;
+  margin-left:300px;
+  margin-right:50px;
+}
+header p{
+	all:unset;
+	color:inherit ;
+	font-family:inherit;
+	margin-left:0 !important;
+}
+header a{
+	all:unset;
+	text-decoration:none !important;
+	color:inherit;
+	font-family:inherit;
+	margin-left:0;
+}
+img {
+	border: 3px dotted yellow;
+	padding: 5px;
+	margin: 20px auto;
+	margin-left:50px;
+	width: 25%;
+	margin-bottom:0;
+	opacity:1.0;
+
+ }
+img:hover {
+	border: 3px solid #001eff;
+}
+figcaption{
+	margin:top:0;
+	margin-bottom:20px;
+	margin-left:50px;
+	max-width:60%;
+	text-align:justify;
+	font-family:game2, sans-serif;
+	font-size:18px;
+	opacity:0.5;
+
+}
+figcaption:hover{
+	opacity:1;
+}
+h4{
+	font-family:roco, sans-serif;
+	text-align:center;
+}
+header img{
+	max-width:30%;
+	margin-left:0;
+}
+header figcaption{
+	color:white;
+	margin-left:0;
+	text-align:justify;
+}
+div h3{
+	margin-top:25%;
+}
+q{	display:inline-block;
+	color:white;
+	font-family:game2, sans-serif;
+	margin:15px 50px;
+	width:60% !important;
+	text-align:center !important;
+}
+a{
+	color:inherit ;
+}
+table{
+	border: 3px dotted yellow;
+	max-width:70%;
+	margin:20px auto;
+	font-family:game2, sans-serif;
+	background:#484848;
+}
+table:hover{
+	text-shadow: rgb(0, 0, 0) 3px 0px 0px, rgb(0, 0, 0) 2.83487px 0.981584px 0px, rgb(0, 0, 0) 2.35766px 1.85511px 0px, rgb(0, 0, 0) 1.62091px 2.52441px 0px, rgb(0, 0, 0) 0.705713px 2.91581px 0px, rgb(0, 0, 0) -0.287171px 2.98622px 0px, rgb(0, 0, 0) -1.24844px 2.72789px 0px, rgb(0, 0, 0) -2.07227px 2.16926px 0px, rgb(0, 0, 0) -2.66798px 1.37182px 0px, rgb(0, 0, 0) -2.96998px 0.42336px 0px, rgb(0, 0, 0) -2.94502px -0.571704px 0px, rgb(0, 0, 0) -2.59586px -1.50383px 0px, rgb(0, 0, 0) -1.96093px -2.27041px 0px, rgb(0, 0, 0) -1.11013px -2.78704px 0px, rgb(0, 0, 0) -0.137119px -2.99686px 0px, rgb(0, 0, 0) 0.850987px -2.87677px 0px, rgb(0, 0, 0) 1.74541px -2.43999px 0px, rgb(0, 0, 0) 2.44769px -1.73459px 0px, rgb(0, 0, 0) 2.88051px -0.838247px 0px;}
+table th, table td{
+  border: 2px solid #001eff;
+  border-spacing: 0.5rem;
+  text-align:center;
+}
+tr th{
+	width:100%;
+	text-align:center;
+	font-size:130%;
+	color:#74ee15;
+	letter-spacing:1px;
+	text-align:center;
+	padding-top:7px !important;
+	padding-bottom:7px !important;
+	text-shadow: rgb(0, 0, 0) 3px 0px 0px, rgb(0, 0, 0) 2.83487px 0.981584px 0px, rgb(0, 0, 0) 2.35766px 1.85511px 0px, rgb(0, 0, 0) 1.62091px 2.52441px 0px, rgb(0, 0, 0) 0.705713px 2.91581px 0px, rgb(0, 0, 0) -0.287171px 2.98622px 0px, rgb(0, 0, 0) -1.24844px 2.72789px 0px, rgb(0, 0, 0) -2.07227px 2.16926px 0px, rgb(0, 0, 0) -2.66798px 1.37182px 0px, rgb(0, 0, 0) -2.96998px 0.42336px 0px, rgb(0, 0, 0) -2.94502px -0.571704px 0px, rgb(0, 0, 0) -2.59586px -1.50383px 0px, rgb(0, 0, 0) -1.96093px -2.27041px 0px, rgb(0, 0, 0) -1.11013px -2.78704px 0px, rgb(0, 0, 0) -0.137119px -2.99686px 0px, rgb(0, 0, 0) 0.850987px -2.87677px 0px, rgb(0, 0, 0) 1.74541px -2.43999px 0px, rgb(0, 0, 0) 2.44769px -1.73459px 0px, rgb(0, 0, 0) 2.88051px -0.838247px 0px;
+}
+tbody tr:nth-child(odd) {
+  background-color: #888888;	
+}
+footer h4{
+	text-align:center;
+}
+footer p:nth-child(odd),
+footer p:nth-child(even){
+	margin-left:25%;
+  	margin-right:25%;
+}
+button{
+	display:none;
+}
+td:hover{
+	background:#74ee15;
+}
+.col-ing{
+	margin-left:5%;
+	margin-right:50% !important;
+	display:inline-block;
+	font-size:16px;
+	position:absolute;
+}
+.col-ita{
+	display:inline-block;
+	position:relative;
+	margin-left:55%;
+	width:45%;
+}
+.col-ing h3, .col-ing h4, .col-ita h3, .col-ita h4{
+	margin-left:5%;
+	margin-right:50% !important;
+	text-align:left;
+	color:#ffe700;
+}
+.col-ing h1, .col-ita h1{
+	font-size:3em;
+}
+.col-ing table, .col-ita table{
+	font-size:75%;
+}
+li{
+	color:#74ee15;
+	text-align:justify;
+	line-height:20px;
+}
+.col-ing div h3, .col-ita div h3{
+	margin-top:250px;
+	letter-spacing:2px;
+	font-family:roco, sans-serif;
+}
+td:hover{
+	background:#74ee15;
+}
+@media only screen(min-width:768px)  and (max-width:1024px){
+	body{
+		font-weight:600;
+		margin-top:40px;
+		margin-left:55px !important;
+		margin-right:55px !important;
+	}
+	.col-ing h1{
+			font-size:40px;
+		}
+	.col-ita h1{
+			font-size:40px;
+		}
+	figcaption{
+		font-size:16px;
+	}
+	header h2{
+		font-size:32px;
+	}
+	header h3{
+		font-size: 24px;
+	}
+	img{
+		width:40%;
+	}
+	h1{
+		font-size:60px;
+	}
+	p:nth-child(odd) {
+  		margin-right:200px;
+  	}
+  	p:nth-child(even) {
+		margin-left:200px;
+	}
+	.col-ing p:nth-child(odd) {
+  		margin-right:200px;
+  	}
+  	.col-ita p:nth-child(even) {
+		margin-left:200px;
+	}
+	.col-ita p:nth-child(odd) {
+  		margin-right:200px;
+  	}
+  	.col-ing p:nth-child(even) {
+		margin-left:200px;
+	}
+}
+@media only screen(min-width:576px)  and (max-width:768px){
+	body{
+		margin-top:40px;
+		margin-left:45px;
+		margin-right:45px;
+	}
+		table{
+			width:70%;
+		}
+		.col-ing h1{
+			font-size:32px;
+		}
+		.col-ita h1{
+			font-size:32px;
+		}
+	header h2, {
+		font-size:24px;
+	}
+	figcaption{
+		font-size:15px;
+	}
+	header{
+		width:80%;
+	}
+	header h3{
+		font-size:18px;
+	}
+	img{
+		width:40% !important;
+	}
+	h1{
+		font-size:55px;
+	}
+	header div img{
+		width:30% !important;
+	}
+	p:nth-child(odd) {
+  		margin-right:150px;
+  	}
+  	p:nth-child(even) {
+		margin-left:150px;
+	}
+	.col-ing p:nth-child(odd) {
+  		margin-right:150px;
+  	}
+  	.col-ita p:nth-child(even) {
+		margin-left:150px;
+	}
+	.col-ita p:nth-child(odd) {
+  		margin-right:150px;
+  	}
+  	.col-ing p:nth-child(even) {
+		margin-left:150px;
+	}
+}
+
+body{
+    cursor:url("Mario.cur"), auto;
+}
+@media only screen(max-width:576px){
+	body{
+		margin-top:30px;
+		margin-left:25px;
+		margin-right:25px;
+		font-weight:450;
+		font-size:14px;
+	}
+	header{
+		width:80%;
+	}
+	table{
+		width:75%;
+	}
+	.col-ing h1{
+			font-size:24px;
+		}
+	.col-ita h1{
+			font-size:24px;
+		}
+	img{
+		width:40% !important;
+	}
+	h1{
+		font-size:42px;
+	}
+	header h2{
+		font-size:22px;
+	}
+	header h3{
+		font-size:18px;
+	}
+	header img{
+		width:35%;
+	}
+	figcaption{
+		font-size:14px;
+	}
+	p:nth-child(odd) {
+  		margin-right:120px;
+  	}
+  	p:nth-child(even) {
+		margin-left:120px;
+	}
+	.col-ing p:nth-child(odd) {
+  		margin-right:120px;
+  	}
+  	.col-ita p:nth-child(even) {
+		margin-left:120px;
+	}
+	.col-ita p:nth-child(odd) {
+  		margin-right:120px;
+  	}
+  	.col-ing p:nth-child(even) {
+		margin-left:120px;
+	}
+	.col-ing h1{
+		right:100px;
+	}
+	.col-ita h1{
+		right:100px;
+	}
+	.wrapper{
+		margin-left:0;
+	}
+	.col-ita table, .col-ing table{
+		display:none;
+	}
+}

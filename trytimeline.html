@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Time machine</title>
+  <link rel='icon' href='img/ico.ico'/>  
+
+  <!-- Bootstrap core CSS -->
+   <!--     Fonts and icons     -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+<!-- CSS Files -->
+
+  <link rel="stylesheet" href="trytimeline.css">
+    <script src="slider.js"></script>
+  
+  <!-- Bootstrap core JavaScript -->
+  <script
+  src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>  
+
+  <!-- Custom fonts for this template -->
+
+  
+  <!-- Reference for Ajax -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+
+
+  <!-- Really important <link> to change the different css on-the-fly -->  
+  <link id="thestylesheet" rel="stylesheet" type="text/css" href="white.css"/> 
+
+
+  <script>
+$(document).ready(function(){
+  $("#btn1").click(function(){
+    $("#div1").load("japan.html") ||  $("html").load("texts/japan.html");
+  });
+});
+    
+$(document).ready(function(){
+  $("#btn2").click(function(){
+    $("#div1").load("alabamadelphina.html") ||  $("html").load("texts/alabamadelphina.html");
+  });
+});
+$(document).ready(function(){
+  $("#btn3").click(function(){
+    $("#div1").load("delveydelphina.html") ||  $("html").load("texts/delveydelphina.html");
+  });
+});
+$(document).ready(function(){
+  $("#btn4").click(function(){
+    $("#div1").load("lotterydelphina.html") ||  $("html").load("texts/lotterydelphina.html");
+  });
+});
+$(document).ready(function(){
+  $("#btn5").click(function(){
+    $("#div1").load("TimesLiterarySupplement_Final.html") ||  $("html").load("texts/TimesLiterarySupplement_Final.html");
+  });
+});
+$(document).ready(function(){
+  $("#btn6").click(function(){
+    $("#div1").load("eudirective.html") ||  $("html").load("texts/eudirective.html");
+  });
+});
+</script> 
+
+
+<script>
+  // This is the function to change the 6 stylesheets; it is placed on the timeline dots
+  
+    function setStyleSheet(url){
+       var stylesheet = document.getElementById("thestylesheet");
+       stylesheet.setAttribute('href', url);
+    }
+</script>
+</head>
+
+
+
+
+<header id="header">
+  <nav class="links" style="--items: 7; margin-top: 0px;">
+    <div class="selector"> </div>
+    <a href="index.html" class="btn btn-animation-1" id="btnhome">Home</a>
+    <a href="#" class="btn btn-animation-1" id="btn1">Art 1</a>
+    <a href="#" class="btn btn-animation-1" id="btn2">Art 2</a>
+    <a href="#" class="btn btn-animation-1" id="btn3">Art 3</a>
+    <a href="#" class="btn btn-animation-1" id="btn4">Art 4</a>
+    <a href="#" class="btn btn-animation-1" id="btn5">Art 5</a>
+    <a href="#" class="btn btn-animation-1" id="btn6">Art 6</a>
+    <span class="line"></span>
+  </nav>
+</header>
+
+
+
+
+<!-- The empty div that we populate with the articles --> 
+        <main id="div1" style="margin-top:100px; margin-bottom: 80px;" class=""> 
+        </main>
+        
+
+
+<footer id="footer">
+ 
+  <nav class="links" style="--items: 8; ">
+     <div class="selector"> </div>
+    <a href="#" class="btn btn-animation-1" id="btn10"  onclick="setStyleSheet('epigraph_stylesheet.css')">Omero</a>
+    <a href="#" class="btn btn-animation-1" id="btn20"  onclick="setStyleSheet('leonardo_stylesheet.css')">Leonardo</a>
+    <a href="#" class="btn btn-animation-1" id="millenial"  onclick="setStyleSheet('vic_era.css')">The Scarlet Letter</a>
+    <a href="#" class="btn btn-animation-1" id="btn40"  onclick="setStyleSheet('bauhaus_stylesheet_two.css')">Bauhaus</a>
+    <a href="#" class="btn btn-animation-1" id="btn50"  onclick="setStyleSheet('swiss-style.css')">Swiss</a>
+        <a href="#" class="btn btn-animation-1" id="btn70"  onclick="setStyleSheet('90s.css')">Neon 90s</a>
+    <a href="#" class="btn btn-animation-1" id="btn80"  onclick="setStyleSheet('prova.css')">Tomorrow</a>
+        <a href="#" class="btn btn-animation-1" id="btn90"  onclick="setStyleSheet('future.css')">The day after tomorrow</a>
+    <span class="line"></span>
+  </nav>
+
+</footer>
+
+
+</body>
+</html>

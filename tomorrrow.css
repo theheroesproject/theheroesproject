@@ -1,0 +1,139 @@
+
+img {
+	width:50%;
+	margin-top: 10px;
+	margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    filter:hue-rotate(90deg);
+ }
+
+.bg {
+	text-align: center;
+}
+
+p:hover{
+	background-color: #FFA07A;
+	text-shadow: .07em .07em 0 #FF3743, .1em .1em 0 white;
+}
+
+table{
+	border-style: groove;
+	border-width: 5px;
+	border-color: white;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	display:flex;
+	flex-wrap: wrap;
+
+}
+
+header{
+	
+	background-image: url("giphy.gif");
+	text-align: center;
+	transition: all .2s ease-in-out;
+	color:#FFA07A;
+	font-size: 15px;
+	margin-bottom: 50px;
+	opacity: 0.9;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+
+a:link{
+	color: #F53844;
+}
+
+
+header:hover{
+	transform: scale(1.5);}
+
+
+p {
+	border-style:dashed;
+	transition: 1s box-shadow;
+	color:white;
+	font-size:13px;
+	transition: all .2s ease-in-out; 
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	display:flex;
+	flex-wrap: wrap;
+	text-align: justify;
+
+}
+
+header p{
+	all:unset;
+	background-image: url("giphy.gif");
+	text-align: center;
+	transition: all .2s ease-in-out;
+	color:#FFA07A;
+	font-size: 15px;
+	margin-bottom: 50px;
+	opacity: 0.9;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+
+
+}
+
+p:hover { transform: scale(1.5); 
+}
+
+body{
+  	animation-duration: 2s;
+  	animation-name: slidein;
+  	font-family: VelodromaBasic-Wide;
+	background-image: url('lanterne.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding:10%;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 200%; 
+  }
+
+  to {
+    margin-left:0%;
+    width: 100%;
+  }
+}
+
+
+@font-face {
+	font-family: 'VelodromaBasic-Wide';
+	src: url('VelodromaBasic-Wide.eot');
+	src: url('VelodromaBasic-Wide.eot?#iefix') format('embedded-opentype'),
+		url('VelodromaBasic-Wide.woff') format('woff'),
+		url('VelodromaBasic-Wide.ttf') format('truetype');
+	font-weight: bold;
+}
+
+
+main{
+	column-count: 2;
+	column-gap: 40px;
+	column-rule-style: dashed;
+	column-fill: balance;
+	column-rule-color: white;
+
+}
+

@@ -1,0 +1,479 @@
+@font-face {
+    font-family: 'Berthold Akzidenz Grotesk';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Berthold Akzidenz Grotesk BE Extra Bold Condensed'), url('Berthold-akzidenz-grotesk-be-extra-bold-condensed.woff') format('woff');
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+
+button {
+  display: none;
+}
+
+
+
+body {
+  
+  margin: 0;
+  padding: 0;
+  background-color: #D3D3D3;
+  background-image: url('images/bk3.jpeg');
+ 
+}
+
+/*--------------------Header Structure and Style--------------------- */
+
+header {
+
+  position: relative;
+  height: 95vh;
+  background-image: linear-gradient(to right bottom, #c53030, #664524);
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+
+}
+
+header > p {
+  text-align: left;
+  left: 90px;
+  color: #1F6FE2;
+  font-family: 'Berthold Akzidenz Grotesk', sans-serif;
+  font-size: 12px;
+  transform: skewY(-10deg);
+  text-shadow: 2px 2px #FF0000;
+  position: relative;
+  top: 350px;
+}
+
+
+p {
+  font-family: "Helvetica Neue","Helvetica", sans-serif;
+  color: #E21F1F;
+  padding: 20px;
+  letter-spacing: 2px;
+  font-size: 12px;
+  position: relative;
+  font-size: 12px;
+  overflow: hidden;
+  text-align: justify;
+
+}
+
+
+
+h1 {
+
+    font-size: 2.5em;
+    font-family: 'Berthold Akzidenz Grotesk', sans-serif;
+    text-align: left;
+    left: 40px;
+    top: 100px;
+    position: absolute;
+    color: white;
+    width: 50%;
+    transform: skewY(6deg);
+    
+}
+
+
+
+h2 {
+
+  font-family: 'Berthold Akzidenz Grotesk', sans-serif;
+  font-size: 2em;
+  left: 40px;
+  top: 150px;
+  text-align: left;
+  color: red;
+  position: absolute;
+  width: 60%;
+  padding-top: 10px;
+  transform: skewY(6deg);
+  background-color: #3206B1;
+  margin-top: 50px;
+ 
+}
+
+h3 {
+
+  font-family: "Helvetica Neue","Helvetica", sans-serif;
+  font-size: 1.7em;
+  bottom: 70px;
+  left: 40px;
+  text-align: left;
+  position: absolute;
+  color: black;
+  width: 33%;
+  transform: skewY(6deg);
+  
+}
+
+h4 {
+
+  font-family: 'Berthold Akzidenz Grotesk', sans-serif;
+  font-size: 1.3em;
+  top: 150px;
+  left: 20px;
+  text-align: left;
+  position: absolute;
+  color: blue;
+  width: 33%;
+  transform: skewY(6deg);
+
+}
+
+main {
+  padding-top: 30px; 
+  padding-left: 10px;
+  padding-right: 300px;
+  padding-bottom: 30px;
+  -webkit-column-count: 3; /* Chrome, Safari, Opera */
+  -moz-column-count: 3; /* Firefox */
+  column-count: 3;
+  -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+  -moz-column-gap: 40px; /* Firefox */
+  column-gap: 40px;
+  background-color: #D3D3D3;
+  background-image: url("images/bk3.jpeg");
+  background-size: contain;
+  column-rule-style: solid; 
+  column-rule-width: 5px;
+  column-rule-color:black;
+
+
+}
+
+
+
+
+header img {
+   max-width: 40%; 
+  max-height: 40%;
+ float: right;
+  display: inline-block;
+ margin-left: auto;
+ margin-right: auto;
+ padding-right: 25px;
+ padding-top: 70px;
+
+}
+
+header figcaption {
+
+  color: white;
+  font-size: 10px;
+  text-decoration: overline;
+  float: right; 
+  position: absolute;
+    bottom: 250px;
+    left: 800px;
+    right: 0;
+
+
+}
+
+
+
+
+
+
+img:hover {
+  opacity: 1;
+  -webkit-animation: flash 1.5s;
+  animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+  0% {
+    opacity: .4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes flash {
+  0% {
+    opacity: .4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #7C8387;
+  border: 4px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #E21F1F;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #000000;
+}
+::-webkit-scrollbar-track {
+  background: #ffffff;
+  border: 0px none #ffffff;
+  border-radius: 23px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #ffffff;
+}
+::-webkit-scrollbar-track:active {
+  background: #ffffff;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+
+
+table {
+  all:unset;
+font-family: "Helvetica", sans-serif;
+margin-left: 140px;
+margin-right: 140px;
+text-align: center;
+border-collapse: collapse; 
+border-spacing: 0;  
+}
+
+td, th {
+border: 3px solid #344AB6;
+height: 30px;
+color: #E21F1F;
+}
+
+th { background: #F3F3F3;
+}
+
+/* for instance, the following line of code tells css to
+make the odd rows a certain colour. it works for the even
+ones too, ofc, changing the word */
+
+tr:nth-child(odd) td { background: #F3F3F3; } 
+
+tr td:hover { background: #8C1BCC; }  
+
+
+.container-eu a {
+font-size: 10px;
+color:#009900;
+position: static;
+}
+
+
+.container-eu ul {
+padding: 15px 15px;
+list-style: none; 
+position: static;
+
+}
+.container-eu li {
+padding: 20px 20px;
+position: static;
+font-family: 'Helvetica', sans-serif;
+font-size: 14px;
+line-height: 20px;
+
+
+}
+
+.container-eu li:nth-of-type(odd) {
+background: purple;
+color:#CCCCCC;
+position: static;
+}
+
+.container-eu li:nth-of-type(even) {
+background: purple;
+color:#444444;
+}
+
+
+.container-eu table {
+margin-top: 20px;
+margin-bottom: 20px;
+margin-left:auto;
+margin-right:auto;
+word-break: break-word;
+}
+
+
+.container-eu table tr:nth-of-type(odd) {
+  background: #333333;
+  }
+
+.container-eu table tr:nth-of-type(even) {
+  background: #999999;
+  }
+
+
+.container-eu table th {
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 10px;
+font-family: 'Helvetica', sans-serif;
+font-size: 13px;
+color:#00cccc;
+text-align: center;
+}
+
+.container-eu table td {
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 10px;
+font-family: 'Helvetica', sans-serif;
+font-size: 13px;
+border-left: 2px solid #ffffff;
+color:#ffffff;
+}
+.container-eu table td:nth-of-type(1) {
+border-left: none;
+}
+
+
+
+.col-ing {
+
+  display: inline-block;
+  float: left;
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  column-count: 2;
+  -webkit-column-rule: 2px double black; /* Chrome, Safari, Opera */
+  -moz-column-rule: 2px double black; /* Firefox */
+  column-rule: 2px double black;
+  position: absolute;
+  width: 35%;
+  text-align: justify;
+
+}
+
+.col-ita {
+  display: inline-block;
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  column-count: 2;
+  -webkit-column-rule: 2px double black; /* Chrome, Safari, Opera */
+  -moz-column-rule: 2px double black; /* Firefox */
+  column-rule: 2px double black;
+  position: relative;
+  left: 45%;
+  right: 5%;
+  width: 65%;
+  text-align: justify;
+ 
+
+}
+
+div h1 {
+  position: relative;
+  top:0;
+  left: 10%;
+}
+
+
+.col-ing h3 {
+
+  position: static;
+   transform: skewY(-6deg);
+   font-size: 15px;
+   margin-left: 10px;
+
+  
+}
+.col-ita h3 {
+
+  position: static;
+   transform: skewY(-6deg);
+   font-size: 15px;
+   
+}
+
+.col-ing p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  
+}
+
+.col-ita p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+div h4 {
+
+  position: static;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+
+
+time {
+
+  color: blue;
+  margin-left: 10px;
+
+}
+
+@media (max-width: 576px) { 
+ 
+
+  h1 {font-size: 70px;
+    word-break: break-all;
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 40px;
+    padding: 10px;
+  }
+
+  h2{ font-size: 15px;
+  }
+
+  h3{ font-size: 15px;
+  }
+
+  time{font-size: 10px;
+  }
+// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) {
+
+  h1 {
+    font-size: 100px;
+    word-break: break-all;
+    text-align: justify;
+    letter-spacing: 2px;
+      line-height: 180px;
+
+  }
+
+  h2{ 
+    font-size: 20px;
+  }
+
+  h3{ 
+    font-size: 20px;
+  }
+
+  time{
+    font-size: 15px;
+  }
+ 
+
+}
