@@ -11,7 +11,7 @@ font-family: victorian_title;
   src: url(Baskerville-Italic.otf);
 }
 body{
-	background: url("images/victorian_background.jpg");
+	background: url("images/victorianbg.jpg");
 	background:cover;
 	font-family:victorian_basic, serif;
 	font-size:22px;
