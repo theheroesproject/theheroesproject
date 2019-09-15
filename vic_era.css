@@ -30,7 +30,8 @@ body{
 #header nav, #footer nav{
 	color:#8a2be2;
 	font-family:baskerville, serif;
-	font-size:14px;
+	font-size:12px;
+	height:100%;
 	background-color:rgba(211,211,211,0.5);
 }
 h1{
