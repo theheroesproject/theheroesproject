@@ -22,11 +22,13 @@ body{
 	color:white;
 	}
 	
-header #header, footer #footer{
+header #header{
 	all:unset !important;
 	font-family:game2;
 	font-size:16px;
 	max-height:35px;
+	margin-top:0
+	color:red;
 }
 p{
 	font-weight:600;
