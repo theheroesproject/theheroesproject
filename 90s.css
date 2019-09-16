@@ -97,8 +97,6 @@ header{
 	all:unset;
 	position:absolute;
 	top:0;
-	left:10%;
-	right:10%;
 }
 header#header nav{
 	all:unset;
@@ -111,6 +109,7 @@ header#header nav{
 }
 header#header nav:hover{
 	all:unset;
+	color:	rgb(77,238,234);
 }
 header p{
 	all:unset;
@@ -250,16 +249,11 @@ footer#footer nav{
 }
 #footer{
 	all:unset;
-	width:100%
+	width:100%;
+	background-color:rgba(240,0,255,0.5);
+
 }
 
-footer#footer nav a:nth-child(even),footer#footer nav a:nth-child(odd){
-	all:unset;
-	margin-left:0;
-	margin-right:0;
-	font-color:rgb(77,238,234);
-	background-color:rgba(240,0,255,0.5);
-}
 
 button{
 	display:none;
