@@ -225,7 +225,7 @@ main{
 
 
 .flex-container {
-	widht:100%;
+	width:100%;
 
 display: -webkit-flex;
 display: flex;
