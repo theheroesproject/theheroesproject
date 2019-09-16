@@ -358,11 +358,8 @@ border-left: none;
 
   display: inline-block;
   float: left;
-  -webkit-column-count: 2; /* Chrome, Safari, Opera */
-  -moz-column-count: 2; /* Firefox */
   column-count: 2;
-  -webkit-column-rule: 2px double black; /* Chrome, Safari, Opera */
-  -moz-column-rule: 2px double black; /* Firefox */
+  
   column-rule: 2px double black;
   position: absolute;
   width: 35%;
@@ -372,8 +369,7 @@ border-left: none;
 
 .col-ita {
   display: inline-block;
-  -webkit-column-count: 2; /* Chrome, Safari, Opera */
-  -moz-column-count: 2; /* Firefox */
+  
   column-count: 2;
   -webkit-column-rule: 2px double black; /* Chrome, Safari, Opera */
   -moz-column-rule: 2px double black; /* Firefox */
