@@ -78,12 +78,13 @@ h1:before
 	filter:blur(40px);
 	margin-left:0;
 }
- #header nav{
+header #header nav{
 	all:unset !important;
-	margin-left:-50px;
-  	margin-top:-20% !important;
-  	padding-top:-30px !important;
-	text-align:center;
+	display:inline-block;
+	position:absolute;
+	top:0;
+	left:auto;
+	right:auto;
 	font-size:18px !important;
 	line-height:22px;
 	max-height:35px;
