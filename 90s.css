@@ -90,6 +90,36 @@ header{
   	margin-top:20%;
   	padding-top:30px;
   }
+#header nav{
+	all:unset;
+	top:0 !important;
+	font-size:18px !important;
+	line-height:22px;
+	max-height:35px;
+	background-color:rgba(240,0,255,0.5);
+}
+nav{
+	top:0 !important;
+	font-size:18px !important;
+	line-height:22px;
+	max-height:35px;
+	background-color:rgba(240,0,255,0.5);
+}
+#header nav{
+	all:unset;
+	top:0 !important;
+	font-size:18px !important;
+	line-height:22px;
+	max-height:35px;
+	background-color:rgba(240,0,255,0.5);
+}
+nav{
+	top:0 !important;
+	font-size:18px !important;
+	line-height:22px;
+	max-height:35px;
+	background-color:rgba(240,0,255,0.5);
+}
  header:hover{
   	color:#001eff;
   	font-family:game2;
@@ -117,7 +147,6 @@ p:nth-child(even) {
 header p{
 	all:unset;
 	color:inherit ;
-	font-family:inherit;
 	margin-left:0 !important;
 }
 header a{
@@ -252,21 +281,6 @@ li{
 	color:#74ee15;
 	text-align:justify;
 	line-height:20px;
-}
-#header nav{
-	all:unset;
-	top:0 !important;
-	font-size:18px !important;
-	line-height:22px;
-	max-height:35px;
-	background-color:rgba(240,0,255,0.5);
-}
-nav{
-	top:0 !important;
-	font-size:18px !important;
-	line-height:22px;
-	max-height:35px;
-	background-color:rgba(240,0,255,0.5);
 }
 
 .col-ing div h3, .col-ita div h3{
