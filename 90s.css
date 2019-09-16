@@ -93,12 +93,15 @@ header{
   	color:#001eff;
   	font-family:game2;
 }
+#header{
+	all:unset;
+	position:absolute;
+	top:0;
+}
 header#header nav{
 	all:unset;
 	font-size:80%;
-	position:fixed;
-	top:-20% !important;
-	color:	rgb(77,238,234);
+	top:0% !important;
 	background-color:rgba(240,0,255,0.5);
 }
 header#header nav:hover{
@@ -236,11 +239,16 @@ footer#footer nav{
 	max-heigh:32px;
 	background-color:rgba(240,0,255,0.5);
 }
+#footer{
+	all:unset;
+	background-color:rgba(240,0,255,0.5);
+	margin-left:15% !important;
+	margin-right:15% !important;
+}
+
 footer#footer nav p:nth-child(even){
 	all:unset;
-	margin-left:15% !important;
-	margin-right:-10% !important;
-	color:	rgb(77,238,234);
+	color:rgb(77,238,234);
 	background-color:rgba(240,0,255,0.5);
 }
 
