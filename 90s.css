@@ -100,7 +100,8 @@ header{
 }
 header#header nav{
 	all:unset;
-	font-size:80%;
+	font-size:18px;
+	font-weight:500;
 	top:0% !important;
 	background-color:rgba(240,0,255,0.5);
 }
