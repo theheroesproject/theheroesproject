@@ -203,7 +203,8 @@ figcaption:hover{
 }
 h4{
 	font-family:roco, sans-serif;
-	text-align:center;
+	text-align:center !important;
+	margin-top:15px;
 }
 header img{
 	max-width:25% !important;
