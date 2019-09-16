@@ -215,6 +215,13 @@ footer p:nth-child(even){
 	margin-left:25%;
   	margin-right:25%;
 }
+footer #footer{
+	all:unset !important;
+	font-family:roco;
+	font-size:16px;;
+	line-height:20px;
+	max-heigh:32px;
+}
 button{
 	display:none;
 }
