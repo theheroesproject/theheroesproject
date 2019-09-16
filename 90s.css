@@ -80,8 +80,7 @@ h1:before
 }
 header #header{
 	all:unset;
-}
-header #header nav{
+#header, nav{
 	all:unset !important;
 	display:inline-block;
 	position:fixed;
