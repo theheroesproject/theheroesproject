@@ -48,6 +48,7 @@ header:nth-of-type(2){
 	padding-bottom: 20px;
 	padding-top: 20px;
 	padding-right: 20px;
+	padding-left:20px;
 	padding-top: 20px;
 	width: 100%;
 	position: relative;
@@ -233,9 +234,8 @@ padding: 20px;
 
 
 
-.container-eu .flex-container .col-ing {
-	
-
+.container-eu .flex-container .col-ing {	
+max-widht:50px;
 margin-top: 30px;
 -webkit-flex: 1;
 flex: 1;
@@ -246,7 +246,7 @@ margin-right:10px;
 
 
 .container-eu .flex-container .col-ita {
-	
+max-widht:50px;
 margin-top: 30px;
 -webkit-flex: 1;
 flex: 1;
@@ -266,11 +266,13 @@ font-size: 10px;
 padding: 15px 15px;
 list-style: none;  
 }
-.container-eu li {
-padding: 20px 20px;
 
-font-size: 14px;
-line-height: 20px;
+.flex-container > li {
+padding: 20px 20px;
+font-size: 15px;
+line-height: 28px;
+text-align:justify;
+font-family:VelodromaBasic-Wide;
 
 }
 
