@@ -52,14 +52,15 @@ header{
 	padding-top: 20px;
 	width:100%;
 	position:relative;
+	column-span:all;
 }
 
 
 	
 
 header p{
-	 all:unset;
-	 background-image: url("images/giphy.gif");
+	 
+	background-image: url("images/giphy.gif");
 	text-align: center;
 	transition: all .2s ease-in-out;
 	color:#FFA07A;
@@ -163,7 +164,7 @@ body{
 	column-gap: 40px;
 	column-rule-style: dashed;
 	column-rule-color: white;
-	column-span:all;
+	
 	column-fill:balance;
 
 }
