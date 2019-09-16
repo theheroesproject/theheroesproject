@@ -241,14 +241,13 @@ footer#footer nav{
 }
 #footer{
 	all:unset;
-	background-color:rgba(240,0,255,0.5);
-	margin-left:15% !important;
-	margin-right:15% !important;
+	color:rgb(77,238,234);
+	width:100%
 }
 
-footer#footer nav p:nth-child(even){
+footer#footer nav a:nth-child(even){
 	all:unset;
-	color:rgb(77,238,234);
+	font-color:rgb(77,238,234);
 	background-color:rgba(240,0,255,0.5);
 }
 
