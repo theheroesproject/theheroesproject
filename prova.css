@@ -166,7 +166,7 @@ body{
 }
 
 
-body{	
+main{	
 	-webkit-column-count: 2 !important; /* Chrome, Safari, Opera */
   	-moz-column-count: 2 !important; /* Firefox */
 	column-count: 2 !important;
