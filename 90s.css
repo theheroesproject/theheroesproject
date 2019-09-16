@@ -46,7 +46,7 @@ h1 {
 	position:absolute;
 	top:60px;
 	right:50px;
-	max-width:65%;
+	max-width:62%;
 	margin:0;
 	font-size: 4.5em;
 	color:#fff;
@@ -118,9 +118,7 @@ nav.links{
 	float: left;
   	display: inline-block;
 	background-color:rgba(240,0,255,0.5);
-	width:100%;
 	font-size:16px;
-  	text-align: center;
  	text-decoration: none;
 }
 .links a:hover{
@@ -250,14 +248,16 @@ footer p:nth-child(even){
   	margin-right:25%;
 }
 
-#footer.links{
-	all:unset;
+#footer{
+	all:unset !important;
 	position:absolute;
-	top:0;
-	bottom:0 !important;
-	background-color:rgba(240,0,255,0.5);
-	width:100%
-	}
+	width:100%;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	padding-left:0;
+	padding-right:0;
+}
 button{
 	display:none;
 }
