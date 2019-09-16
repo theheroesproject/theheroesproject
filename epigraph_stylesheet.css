@@ -250,10 +250,12 @@ line-height: 20px;
 }
 
 .container-eu table {
+widht:50%;
+font-size:13px;
 margin-top: 20px;
 margin-bottom: 20px;
-margin-left:auto;
-margin-right:auto;
+margin-left:0;
+margin-right:10px;
 word-break: break-word;
 border-style: groove;
   border-width:medium;
@@ -268,23 +270,14 @@ opacity:0.9;
 
 
 .container-eu table th {
-padding-top: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-padding-right: 10px;
+
 font-family: 'AncientGeek';
-font-size: 30px;
+font-size: 13px;
 color:#47290D;
-opacity:0.9;
-text-align: center;
 opacity:0.9;
 }
 
 .container-eu table td {
-padding-top: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-padding-right: 10px;
 font-family: 'AncientGeek';
 font-size: 15px;
 border-left: 2px groove #47290D;
@@ -310,17 +303,12 @@ border-left: none;
 }
 
 .col-ita {
-  width: 50%;
+	widht:50%;
 }
 
-.col-ita table{
-  width: 30%;
-}
+
 
 .col-eng {
   width: 50%;
 }
 
-.col-eng table {
-  width: 50%;
-}
