@@ -196,6 +196,9 @@ body{
 	padding-right: 20px;
 	padding-top: 20px;
 }
+.container-eu main{
+	unset:all;
+}
 
 .container-eu> .flex-container> p {
 	width:100% !important;
