@@ -132,7 +132,7 @@ main {
   padding-bottom: 30px;
   background-color: #D3D3D3;
   background-image: url("images/bk3.jpeg");
-  background-size: cover;
+  background-size: contain;
     column-count: 2;  
   -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
   -moz-column-gap: 40px; /* Firefox */
