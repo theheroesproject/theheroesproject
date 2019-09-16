@@ -84,9 +84,17 @@ $(document).ready(function(){
        var stylesheet = document.getElementById("thestylesheet");
        stylesheet.setAttribute('href', url);
     }
+  function playmario(){
+       var x = document.getElementById("Mario");
+       var y = x.setAttribute('src', 'Super_Mario.mp3');
+	   y.play();
+                 }
 </script>
 </head>
-
+<body>
+  <audio autoplay id="Mario">
+   <source src="Super_Mario.mp3" type="audio/mpeg">
+</audio>
 
 
 
