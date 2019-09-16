@@ -6,6 +6,7 @@ img {
 
 header{
 	text-align: justify;
+	line-height:1cm;
 }
 
 table{
@@ -56,7 +57,7 @@ body{
 a:link{text-shadow: 1px 0 1px #333, 0 1px 1px #000;
 	
 	color:#47290D;
-	opacity: 0.9;
+	opacity: 1;
 }
 
 @font-face {
@@ -115,7 +116,11 @@ figcaption {
         -o-transition: opacity .5s ease-in-out;
         transition: opacity .5s ease-in-out;
       }
-	  
+
+figure:hover figcaption {
+        opacity: 0.6;
+		
+      }
 
 
 ::-webkit-scrollbar {
@@ -254,6 +259,7 @@ border-style: groove;
   -webkit-box-shadow: 7px 10px 5px 0px rgba(71,41,13,1);
   -moz-box-shadow: 7px 10px 5px 0px rgba(71,41,13,1);
   box-shadow: 7px 10px 5px 0px rgba(71,41,13,1);
+opacity:0.8;
 
 }
 
