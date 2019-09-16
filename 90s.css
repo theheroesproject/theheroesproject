@@ -103,7 +103,7 @@ header{
 }
 header#header.links{
 	all:unset;
-	position:fixed;
+	position:absolute;
 	top:0;
 	font-size:16px;
 	background-color:rgba(240,0,255,0.5);
@@ -112,7 +112,7 @@ header#header.links{
 
 .links a{
 	float: left;
-  	display: block;
+  	display: inline-block;
 	background-color:rgba(240,0,255,0.5);
 	font-size:16px;
   	text-align: center;
