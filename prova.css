@@ -199,9 +199,12 @@ body{
 .container-eu main{
 	unset:all;
 }
+.container-eu {
+	unset:all;
+}
 
 .container-eu> .flex-container> p {
-	column-count:2 !important;
+	
 	width:100% !important;
    
     padding-left: 50px; 
