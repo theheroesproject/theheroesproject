@@ -141,7 +141,7 @@ main {
     column-rule-style: solid;
   column-rule-color:black;
     width: 100%;
-
+    overflow-x: hidden;
 
 }
 
