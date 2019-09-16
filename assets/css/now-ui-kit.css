@@ -41,6 +41,7 @@
   left: 0px;
   box-shadow: 10px 10px 42px 0 rgba(0,0,0,0.75);
   background-color:#fc5031;
+margin-top: 20px;
 }
 
 .gallery-wrap:after, .gallery-wrap:before{
