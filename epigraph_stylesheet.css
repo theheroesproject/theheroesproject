@@ -188,7 +188,7 @@ figure:hover figcaption {
 }
 
 
-.container-eu >flex-container {
+.container-eu .flex-container {
 display: -webkit-flex;
 display: flex;
 margin: 0 auto;
@@ -198,13 +198,13 @@ padding: 20px;
 }
 
 
-.flex-container> p {
+.container-eu .flex-container p {
     font-size:15px;
     line-height: 28px;    
     
 }
 
-.col-ita> p {
+container-eu .flex-container .col-ita p {
     font-size:15px;
     line-height: 28px;
     font-family: AncientGeek;
@@ -214,7 +214,7 @@ padding: 20px;
     
 }
 
-.col-ing> p {
+container-eu .flex-container .col-ing> p {
     font-size:15px;
     line-height: 28px;   
     font-family: AncientGeek;
@@ -227,7 +227,7 @@ padding: 20px;
 
 
 
-.col-ing {
+container-eu .flex-container .col-ing {
 margin-top: 30px;
 -webkit-flex: 1;
 flex: 1;
@@ -236,7 +236,7 @@ margin-right:15px;
 }
 
 
-.col-ita {
+container-eu .flex-container .col-ita {
 margin-top: 30px;
 -webkit-flex: 1;
 flex: 1;
@@ -245,24 +245,24 @@ margin-right:15px;
 }
 
 
-.container-eu> a {
+.container-eu a {
 font-size: 15px;
 }
 
 
-.container-eu> ul {
+.container-eu ul {
 padding: 15px 15px;
 list-style: none;  
 }
 
-.container-eu> li {
+.container-eu li {
 padding: 20px 20px;
 font-size: 15px;
 line-height: 20px;
 
 }
 
-.container-eu> table {
+.container-eu table {
 widht:50%;
 font-size:13px;
 margin-top: 20px;
@@ -282,7 +282,7 @@ opacity:0.9;
 
 
 
-.container-eu> table> th {
+.container-eu table th {
 max-widht:70px;
 font-family: 'AncientGeek';
 font-size: 13px;
@@ -290,7 +290,7 @@ color:#47290D;
 opacity:1;
 }
 
-.container-eu> table > td {
+.container-eu table  td {
 max-widht:70px;
 font-family: 'AncientGeek';
 font-size: 15px;
@@ -299,14 +299,14 @@ color:#47290D;
 opacity: 1;
 }
 
-.container-eu> table > tr{
+.container-eu table  tr{
 	max-widht:50px;
 	border: 2px groove #47290D;
 }
 
 
 
-.container-eu> table> td:nth-of-type(1) {
+.container-eu table td:nth-of-type(1) {
 border-left: none;
 }
 
