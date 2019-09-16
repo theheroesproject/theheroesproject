@@ -78,8 +78,7 @@ h1:before
 	filter:blur(40px);
 	margin-left:0;
 }
-
-header #header nav{
+ #header nav{
 	all:unset !important;
 	margin-left:-50px;
   	margin-top:-20% !important;
