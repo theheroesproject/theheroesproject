@@ -208,6 +208,7 @@ main{
 }
 
 .container-eu {
+	width:100% !important;
     margin: 3% 12%; 
     padding-left: 50px; 
     padding-right: 50px;  
