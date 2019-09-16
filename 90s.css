@@ -95,7 +95,8 @@ header{
 }
 header#header nav{
 	all:unset;
-	font-size:70%;
+	font-size:80%;
+	top:0 !important;
 	background-color:rgba(240,0,255,0.5);
 }
 header#header nav:hover{
@@ -228,10 +229,13 @@ footer#footer nav{
 	bottom:0 !important;
 	padding-bottom:0;
 	position:absolute;
+	margin-left:20%;
+	margin-right:-5%;
 	font-family:roco;
 	font-size:16px;
 	line-height:20px;
 	max-heigh:32px;
+	background-color:rgba(240,0,255,0.5);
 }
 button{
 	display:none;
