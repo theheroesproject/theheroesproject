@@ -165,17 +165,14 @@ margin-bottom: 10px;
 display: block;
 } 
 .container-eu {
-padding-left: 20px;
-padding-right: 20px;
-padding-bottom: 20px;
-padding-top: 20px;
+
 box-sizing: border-box;
 overflow: auto;
 width: 40%;
 max-width: 960px; 
 max-height: 500px;
 margin-left: 450px;
-margin-top: 300px;
+margin-top: 500px;
 margin-bottom: 90px;
 display: inline-block;
 font-family: 'stylefuture', serif;
