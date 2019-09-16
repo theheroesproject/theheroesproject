@@ -89,16 +89,22 @@ header{
   	margin-top:20%;
   	padding-top:30px;
   }
-header #header{
-	all:unset;
-	top:0;
-	color:blue;
-	}
  header:hover{
   	color:#001eff;
   	font-family:game2;
 }
-	
+header p{
+	all:unset;
+	color:inherit ;
+	margin-left:0 !important;
+}
+header a{
+	all:unset;
+	text-decoration:none !important;
+	color:inherit;
+	font-family:inherit;
+	margin-left:0;
+}	
 main{
   	margin-top:50px;
  }
@@ -118,18 +124,6 @@ p:nth-child(even) {
   color:#F000FF;
   margin-left:300px;
   margin-right:50px;
-}
-header p{
-	all:unset;
-	color:inherit ;
-	margin-left:0 !important;
-}
-header a{
-	all:unset;
-	text-decoration:none !important;
-	color:inherit;
-	font-family:inherit;
-	margin-left:0;
 }
 img {
 	border: 3px dotted yellow;
