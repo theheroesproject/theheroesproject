@@ -59,7 +59,7 @@ header{
 	
 
 header p{
-	unset:all !important;
+	unset: all !important;
 	background-image: url("images/giphy.gif");
 	text-align: center;
 	transition: all .2s ease-in-out;
