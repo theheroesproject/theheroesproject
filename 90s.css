@@ -93,9 +93,17 @@ header{
   	color:#001eff;
   	font-family:game2;
 }
+nav{
+	display:inline-block;
+	position:absolute;
+	top:0
+}
 header#header nav{
 	all:unset;
 	background-color:rgba(240,0,255,0.5);
+}
+header#header nav|:hover{
+	all:unset;
 }
 header p{
 	all:unset;
