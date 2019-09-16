@@ -89,6 +89,9 @@ margin-top: 20px;
 
 }
 
+.container h1{
+z-index: 9001;	
+}
 .gallery-wrap p {
   margin-left: 100px;
 
