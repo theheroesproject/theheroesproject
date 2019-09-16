@@ -37,7 +37,6 @@ button{
 }
 
 header{
-	
 	background-image: url("images/giphy.gif");
 	text-align: center;
 	transition: all .2s ease-in-out;
@@ -51,8 +50,8 @@ header{
 	padding-right: 20px;
 	padding-top: 20px;
 	width:100%;
-	position:relative;
-	column-span:all;
+	position: relative;
+	column-span: all;
 }
 
 
@@ -75,7 +74,7 @@ header p{
 
 
 #header nav {
-	unset:all;
+	unset: all;
 	font-size:13px;
 	transform:scale (1.3);
 	margin-top: 10px;
@@ -184,7 +183,7 @@ body{
 }
 
 .prova p{
-	unset:all !important;
+	unset: all !important;
 	text-align: center;
 	transition: all .2s ease-in-out;
 	color:#FFA07A;
@@ -199,8 +198,7 @@ body{
 
 .container-eu> .flex-container> p {
 	
-	width:100% !important;
-   
+    width:100% !important;
     padding-left: 50px; 
     padding-right: 50px;  
     padding-top: 20px;  
