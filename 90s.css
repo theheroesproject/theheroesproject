@@ -24,6 +24,7 @@ body{
 p{
 	font-weight:600;
 	letter-spacing:1px;
+	margin-top:5px;
 	}
 h1 {
   -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
@@ -109,7 +110,8 @@ header#header nav{
 }
 header#header nav:hover{
 	all:unset;
-	color:	rgb(77,238,234);
+	color:rgb(77,238,234);
+	background-color:white;
 }
 header p{
 	all:unset;
@@ -232,20 +234,6 @@ footer p:nth-child(odd),
 footer p:nth-child(even){
 	margin-left:25%;
   	margin-right:25%;
-}
-footer#footer nav{
-	all:unset !important;
-	bottom:0 !important;
-	margin-left:0;
-	margin-right:0;
-	position:absolute;
-	padding-bottom:0;
-	font-family:roco;
-	font-size:16px;
-	line-height:20px;
-	max-heigh:32px;
-	width:100%;
-	background-color:rgba(240,0,255,0.5);
 }
 #footer{
 	all:unset;
