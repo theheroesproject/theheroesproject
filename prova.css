@@ -208,8 +208,8 @@ body{
 }
 
 .container-eu {
-	width:100% !important;
-    margin: 3% 12%; 
+width:100% !important;
+   
     padding-left: 50px; 
     padding-right: 50px;  
     padding-top: 20px;  
@@ -239,26 +239,23 @@ padding: 20px;
 
 
 .container-eu> .flex-container> p {
+	width:100% !important;
+   
+    padding-left: 50px; 
+    padding-right: 50px;  
+    padding-top: 20px;  
+    padding-bottom: 40px; 
+    text-align: justify; 
+    font-size: 10px;  
+    background-image:url('images/lanterne.jpg');
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; 
+  	overflow: hidden;
 	
     font-size:10px;
     line-height: 28px;   
     }
-
-.container-eu .flex-container .col-ita p {
-	widht:50%;
-    font-size:10px;
-    line-height: 28px; 
-    font-family: VelodromaBasic-Wide; 
-    
-}
-
-.container-eu .flex-container .col-ing p {
-	widht:50%;
-    font-size:10px;
-    line-height: 28px; 
-    font-family: VelodromaBasic-Wide;  
-    
-}
 
 
 
