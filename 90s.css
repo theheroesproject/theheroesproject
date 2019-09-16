@@ -106,7 +106,7 @@ header#header nav{
 	padding-left:0;
 	padding-right:0;
 }
-#header.links{
+nav.links{
 	all:unset;
 	position:absolute;
 	top:0;
@@ -117,7 +117,7 @@ header#header nav{
 	}
 	
 
-#header.links a, #footer.links a{
+.links a{
 	float: left;
   	display: inline-block;
 	background-color:rgba(240,0,255,0.5);
@@ -125,7 +125,7 @@ header#header nav{
   	text-align: center;
  	text-decoration: none;
 }
-#header.links a:hover, #footer.links a:hover{
+.links a:hover{
 	all:unset;
 	color:white;
 	}
