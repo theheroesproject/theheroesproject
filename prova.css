@@ -236,7 +236,7 @@ padding: 20px;
 
 
 
-.container-eu .flex-container p {
+.container-eu> .flex-container> p {
     font-size:10px;
     line-height: 28px;   
     }
