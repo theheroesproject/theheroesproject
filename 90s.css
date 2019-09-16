@@ -81,6 +81,10 @@ h1:before
 header #header nav{
 	all:unset;
 	top:0 !important;
+	margin-left:auto;
+  	margin-top:0;
+  	padding-top:0;
+	position:absolute;
 	font-size:18px !important;
 	line-height:22px;
 	max-height:35px;
