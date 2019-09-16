@@ -80,13 +80,10 @@ h1:before
 }
 
 header #header nav{
-	all:unset;
-	top:0 !important;
+	all:unset !important;
 	margin-left:-50px;
-	margin-right:auto;
   	margin-top:-20% !important;
   	padding-top:-30px !important;
-	display:inline-block;
 	text-align:center;
 	font-size:18px !important;
 	line-height:22px;
