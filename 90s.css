@@ -108,6 +108,7 @@ header{
 	all:unset;
 	position:fixed;
 	top:0;
+	color:white;
 	font-family:game1 !important;
 	font-size:16px;
 	background-color:rgba(240,0,255,0.5);
@@ -130,7 +131,7 @@ header{
 	font-size:16px;
  	text-decoration: none;
 }
-.links a:hover{
+#footer.links a:hover{
 	all:unset;
 	font-color:white;
 	font-weight:500;
