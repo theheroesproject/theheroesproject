@@ -285,17 +285,6 @@ color:#47290D;
 opacity: 0.9;
 }
 
-.container-eu table tr {
-padding-top: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-padding-right: 10px;
-font-family: 'AncientGeek';
-font-size: 15px;
-border-left: 2px groove #47290D;
-color:#47290D;
-opacity: 0.9;
-}
 
 
 .container-eu table td:nth-of-type(1) {
