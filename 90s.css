@@ -90,6 +90,10 @@ header{
   	margin-top:20%;
   	padding-top:30px;
   }
+ header:hover{
+  	color:#001eff;
+  	font-family:game2;
+  }
 header #header nav{
 	all:unset;
 	top:0 !important;
@@ -104,10 +108,6 @@ header #header nav{
 	max-height:35px;
 	background-color:rgba(240,0,255,0.5);
 }
- header:hover{
-  	color:#001eff;
-  	font-family:game2;
-  }
 main{
   	margin-top:50px;
  }
