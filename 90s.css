@@ -103,6 +103,7 @@ header{
 	margin-right:0;
 	padding-left:0;
 	padding-right:0;
+	text-align:center;
 }
 #header nav.links{
 	all:unset;
@@ -126,16 +127,18 @@ header{
 .links a{
 	color:white;
 	float: center;
+	text-align:center;
 	margin:auto;
   	display: inline-block;
 	background-color:rgba(240,0,255,0.5);
 	font-size:16px;
- 	text-decoration: none;
+	text-decoration: none;	
 }
+#header.links a:hover{
+	all:unset;
+	}
 #footer.links a:hover{
 	all:unset;
-	font-color:white;
-	font-weight:500;
 	}
 header p{
 	all:unset;
@@ -173,7 +176,7 @@ img {
 	border: 3px dotted yellow;
 	padding: 5px;
 	margin: 20px auto;
-	margin-left:50px;
+	margin-left:70px;
 	width: 25%;
 	margin-bottom:0;
 	opacity:1.0;
