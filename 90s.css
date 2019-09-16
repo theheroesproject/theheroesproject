@@ -99,14 +99,15 @@ header{
 	position:absolute;
 	top:0;
 }
-.links{
+#header.links{
 	all:unset;
 	overflow:hidden;
-	position:fixed;
+	position:absolute;
 	top:0;
 	background-color:rgba(240,0,255,0.5);
 	width:100%
 	}
+
 .links a{
 	float: left;
   	display: block;
@@ -118,9 +119,6 @@ header{
 	}
 	
 	
-header#header nav:hover{
-	all:unset;
-}
 header p{
 	all:unset;
 	color:inherit ;
@@ -243,14 +241,15 @@ footer p:nth-child(even){
 	margin-left:25%;
   	margin-right:25%;
 }
-#footer{
+
+#footer.links{
 	all:unset;
-	width:100%;
+	overflow:hidden;
 	position:absolute;
-	bottom:0;
-	width:100%;
+	top:0;
 	background-color:rgba(240,0,255,0.5);
-}
+	width:100%
+	}
 button{
 	display:none;
 }
