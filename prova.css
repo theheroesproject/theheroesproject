@@ -163,6 +163,7 @@ main{
 	column-gap: 40px;
 	column-rule-style: dashed;
 	column-rule-color: white;
+	column-span: all;
 	column-fill:balance;
 
 }
