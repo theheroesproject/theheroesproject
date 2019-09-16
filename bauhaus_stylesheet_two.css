@@ -94,7 +94,7 @@ the stylesheet for the font*/
   height: 0px;
 }
 ::-webkit-scrollbar-thumb {
-  background: #3c13fb;
+  background: #000000;
   border: 4px none #ecded1;
   border-radius: 50px;
 }
@@ -102,7 +102,7 @@ the stylesheet for the font*/
   background: #ffff00;
 }
 ::-webkit-scrollbar-thumb:active {
-  background: #000000;
+  background: #ffff00;
 }
 ::-webkit-scrollbar-track {
   background: #ecded1;
