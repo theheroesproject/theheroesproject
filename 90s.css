@@ -96,12 +96,14 @@ header{
 }
 #header{
 	all:unset;
+	max-width:32px !important;
+	background-color:rgba(240,0,255,0.5);
 	position:absolute;
 	top:0;
 }
 header#header.links{
 	all:unset;
-	position:sticky;
+	position:fixed;
 	top:0;
 	font-size:16px;
 	background-color:rgba(240,0,255,0.5);
@@ -119,8 +121,6 @@ header#header.links{
 .link a:hover{
 	color:white;
 	}
-	
-	
 header p{
 	all:unset;
 	color:inherit ;
