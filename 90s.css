@@ -97,11 +97,13 @@ header{
 	all:unset;
 	position:absolute;
 	top:0;
+	left:10%;
+	right:10%;
 }
 header#header nav{
 	all:unset;
-	font-size:18px;
-	line-height:20px;
+	font-size:120%;
+	line-height:22px;
 	max-heigh:32px;
 	font-weight:500;
 	top:0% !important;
@@ -237,6 +239,7 @@ footer#footer nav{
 	bottom:0 !important;
 	margin-left:0;
 	margin-right:0;
+	position:absolute;
 	padding-bottom:0;
 	font-family:roco;
 	font-size:16px;
@@ -250,14 +253,7 @@ footer#footer nav{
 	width:100%
 }
 
-footer#footer nav a:nth-child(even){
-	all:unset;
-	margin-left:0;
-	margin-right:0;
-	font-color:rgb(77,238,234);
-	background-color:rgba(240,0,255,0.5);
-}
-footer#footer nav a:nth-child(odd){
+footer#footer nav a:nth-child(even),footer#footer nav a:nth-child(odd){
 	all:unset;
 	margin-left:0;
 	margin-right:0;
