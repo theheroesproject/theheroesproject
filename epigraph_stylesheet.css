@@ -270,7 +270,7 @@ opacity:0.9;
 
 
 .container-eu table th {
-max-widht:50px;
+max-widht:70px;
 font-family: 'AncientGeek';
 font-size: 13px;
 color:#47290D;
@@ -278,12 +278,17 @@ opacity:1;
 }
 
 .container-eu table td {
-max-widht:50px;
+max-widht:70px;
 font-family: 'AncientGeek';
 font-size: 15px;
 border-left: 2px groove #47290D;
 color:#47290D;
 opacity: 1;
+}
+
+.container-eu table tr{
+	max-widht:50px;
+	border: 2px groove #47290D;
 }
 
 
