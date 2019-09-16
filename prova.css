@@ -50,12 +50,11 @@ header{
 	padding-top: 20px;
 	padding-right: 20px;
 	padding-top: 20px;
-	width:100%;
-	min-height:10%;
-	
-	
-	
+	width:100%;		
 }
+
+
+	
 
 header p{
 	 all:unset;
@@ -72,6 +71,19 @@ header p{
 	padding-top: 20px;
  }
 
+header, header >p {
+	background-image: url("images/giphy.gif");
+	text-align: center;
+	transition: all .2s ease-in-out;
+	color:#FFA07A;
+	font-size: 15px;
+	margin-bottom: 50px;
+	opacity: 0.9;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+ }
 #header nav {
 	all:unset;
 	font-size:13px;
