@@ -70,6 +70,19 @@ a:link{text-shadow: 1px 0 1px #333, 0 1px 1px #000;
 	font-size: normal;
 }
 
+h1{
+	font-size: 30px;
+	line-height: 1cm;
+	height: 50px;
+}
+
+a:active{
+	opacity:1;
+	color:black;
+}
+	
+	
+
 h2{ 
 	font-size: 30px;
 	
@@ -160,7 +173,7 @@ figure:hover figcaption {
  
 .container-eu {
     margin: 3% 12%; 
-    padding-left: 50px; 
+    padding-left: 20px; 
     padding-right: 50px;  
     padding-top: 20px;  
     padding-bottom: 40px; 
@@ -175,7 +188,7 @@ figure:hover figcaption {
 }
 
 
-.container-eu .flex-container {
+.container-eu >flex-container {
 display: -webkit-flex;
 display: flex;
 margin: 0 auto;
@@ -185,13 +198,13 @@ padding: 20px;
 }
 
 
-.container-eu .flex-container p {
+.flex-container> p {
     font-size:15px;
     line-height: 28px;    
     
 }
 
-.container-eu .flex-container .col-ita p {
+.col-ita> p {
     font-size:15px;
     line-height: 28px;
     font-family: AncientGeek;
@@ -201,7 +214,7 @@ padding: 20px;
     
 }
 
-.container-eu .flex-container .col-ing p {
+.col-ing> p {
     font-size:15px;
     line-height: 28px;   
     font-family: AncientGeek;
@@ -214,7 +227,16 @@ padding: 20px;
 
 
 
-.container-eu .flex-container .col-ing {
+.col-ing {
+margin-top: 30px;
+-webkit-flex: 1;
+flex: 1;
+margin-left:0px;
+margin-right:15px;
+}
+
+
+.col-ita {
 margin-top: 30px;
 -webkit-flex: 1;
 flex: 1;
@@ -223,33 +245,24 @@ margin-right:15px;
 }
 
 
-.container-eu .flex-container .col-ita {
-margin-top: 30px;
--webkit-flex: 1;
-flex: 1;
-margin-left:15px;
-margin-right:15px;
-}
-
-
-.container-eu a {
+.container-eu> a {
 font-size: 15px;
 }
 
 
-.container-eu ul {
+.container-eu> ul {
 padding: 15px 15px;
 list-style: none;  
 }
 
-.container-eu li {
+.container-eu> li {
 padding: 20px 20px;
 font-size: 15px;
 line-height: 20px;
 
 }
 
-.container-eu table {
+.container-eu> table {
 widht:50%;
 font-size:13px;
 margin-top: 20px;
@@ -269,7 +282,7 @@ opacity:0.9;
 
 
 
-.container-eu table th {
+.container-eu> table> th {
 max-widht:70px;
 font-family: 'AncientGeek';
 font-size: 13px;
@@ -277,7 +290,7 @@ color:#47290D;
 opacity:1;
 }
 
-.container-eu table td {
+.container-eu> table > td {
 max-widht:70px;
 font-family: 'AncientGeek';
 font-size: 15px;
@@ -286,14 +299,14 @@ color:#47290D;
 opacity: 1;
 }
 
-.container-eu table tr{
+.container-eu> table > tr{
 	max-widht:50px;
 	border: 2px groove #47290D;
 }
 
 
 
-.container-eu table td:nth-of-type(1) {
+.container-eu> table> td:nth-of-type(1) {
 border-left: none;
 }
 
