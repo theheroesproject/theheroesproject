@@ -94,7 +94,7 @@ header {
 	line-height:26px !important;
 }
 header p a{
-	color:#8a2be2 !important;
+	color:inherit !important;
 }
 table p a{
 	color:#fbf1e5 !important;
