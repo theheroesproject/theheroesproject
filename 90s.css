@@ -78,10 +78,13 @@ h1:before
 	filter:blur(40px);
 	margin-left:0;
 }
+header #header{
+	all:unset;
+}
 header #header nav{
 	all:unset !important;
 	display:inline-block;
-	position:absolute;
+	position:fixed;
 	top:0;
 	left:auto;
 	right:auto;
