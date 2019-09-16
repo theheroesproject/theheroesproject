@@ -255,6 +255,11 @@ li{
 }
 #header nav{
 	all:unset;
+	top:0 !important;
+	font-size:18px !important;
+	line-height:22px;
+	max-height:35px;
+	background-color:rgba(240,0,255,0.5);
 }
 nav{
 	top:0 !important;
