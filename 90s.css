@@ -94,13 +94,11 @@ header{
   	color:#001eff;
   	font-family:game2;
 }
-header#header nav{
-	all:unset;
-}
 #header{
-	position:absolute;
 	all:unset !important;
+	position:absolute;
 	width:100%;
+	margin-top:0;
 	margin-left:0;
 	margin-right:0;
 	padding-left:0;
@@ -116,7 +114,6 @@ nav.links{
 	width:100%
 	}
 	
-
 .links a{
 	float: left;
   	display: inline-block;
