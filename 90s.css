@@ -95,7 +95,8 @@ header{
 }
 header#header nav{
 	all:unset;
-	background-color:rgba(	(240,0,255,0.5);
+	background-color:rgba(240,0,255,0.5);
+}
 header p{
 	all:unset;
 	color:inherit ;
@@ -220,8 +221,11 @@ footer p:nth-child(even){
 }
 footer#footer nav{
 	all:unset !important;
+	bottom:0 !important;
+	padding-bottom:0;
+	position:absolute;
 	font-family:roco;
-	font-size:16px;;
+	font-size:16px;
 	line-height:20px;
 	max-heigh:32px;
 }
