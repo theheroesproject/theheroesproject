@@ -123,7 +123,8 @@ header{
 	width:100%
 	}	
 .links a{
-	float: left;
+	float: center;
+	margin:auto;
   	display: inline-block;
 	background-color:rgba(240,0,255,0.5);
 	font-size:16px;
@@ -131,7 +132,8 @@ header{
 }
 .links a:hover{
 	all:unset;
-	background-color:white;
+	font-color:white;
+	font-weight:500;
 	}
 header p{
 	all:unset;
@@ -198,7 +200,7 @@ h4{
 }
 header img{
 	max-width:28%;
-	margin-left:0;
+	margin-left:18px;
 }
 header figcaption{
 	color:white;
