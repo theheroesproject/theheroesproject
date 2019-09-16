@@ -99,10 +99,9 @@ header{
 	position:absolute;
 	top:0;
 }
-#header.links{
+header#header.links{
 	all:unset;
-	overflow:hidden;
-	position:absolute;
+	position:sticky;
 	top:0;
 	background-color:rgba(240,0,255,0.5);
 	width:100%
