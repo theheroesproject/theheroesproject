@@ -47,7 +47,6 @@ main {
   padding-bottom: 20px;
   padding-top: 20px;
   box-sizing: border-box;
-  overflow: auto;
   width: 40%;
   max-width: 960px;
   max-height: 500px;
@@ -66,7 +65,8 @@ main {
 background-size: 50px;
 background-repeat: no-repeat;
 background-position: left center;
-
+overflow-x: hidden;
+  overflow-y: auto;
 }
 
 figcaption {
