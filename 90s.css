@@ -104,16 +104,24 @@ header{
 	padding-left:0;
 	padding-right:0;
 }
-nav.links{
+#header nav.links{
 	all:unset;
-	position:absolute;
+	position:fixed;
 	top:0;
 	font-family:game1 !important;
 	font-size:16px;
 	background-color:rgba(240,0,255,0.5);
 	width:100%
 	}
-	
+#footer nav.links{
+	all:unset;
+	position:fixed;
+	bottom:0;
+	font-family:game1 !important;
+	font-size:16px;
+	background-color:rgba(240,0,255,0.5);
+	width:100%
+	}	
 .links a{
 	float: left;
   	display: inline-block;
