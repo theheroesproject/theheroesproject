@@ -96,7 +96,7 @@ header{
 }
 #header{
 	all:unset;
-	position:absolute;
+	position:fixed;
 	top:0;
 }
 header#header nav{
@@ -106,12 +106,11 @@ header#header nav{
 	max-heigh:32px;
 	font-weight:500;
 	top:0% !important;
+	color:white;
 	background-color:rgba(240,0,255,0.5);
 }
 header#header nav:hover{
 	all:unset;
-	color:rgb(77,238,234);
-	background-color:white;
 }
 header p{
 	all:unset;
@@ -238,11 +237,11 @@ footer p:nth-child(even){
 #footer{
 	all:unset;
 	width:100%;
+	position:fixed;
+	bottom:0;
+	width:100%;
 	background-color:rgba(240,0,255,0.5);
-
 }
-
-
 button{
 	display:none;
 }
