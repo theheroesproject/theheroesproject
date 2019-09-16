@@ -91,19 +91,9 @@ header{
   }
 header #header{
 	all:unset;
-	}
-nav{
-	all:unset !important;
-	display:inline-block;
-	position:fixed;
 	top:0;
-	left:auto;
-	right:auto;
-	font-size:16px !important;
-	line-height:22px;
-	max-height:30px;
-	background-color:rgba(240,0,255,0.5) !important;
-}
+	color:blue;
+	}
  header:hover{
   	color:#001eff;
   	font-family:game2;
