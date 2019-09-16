@@ -95,9 +95,11 @@ header {
 }
 header p a{
 	color:inherit !important;
+	text-decoration:none !important
 }
 table p a{
 	color:#fbf1e5 !important;
+	text-decoration:none !important;
 }
 img {
    display: block;
