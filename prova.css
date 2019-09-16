@@ -59,7 +59,7 @@ header{
 	
 
 header p{
-	 
+	 unset:all;
 	background-image: url("images/giphy.gif");
 	text-align: center;
 	transition: all .2s ease-in-out;
@@ -170,7 +170,7 @@ body{
 }
 
 .prova{
-	background-image: url("giphy.gif");
+	background-image: url("giphy.gif") !important;
 	text-align: center;
 	transition: all .2s ease-in-out;
 	color:#FFA07A;
@@ -185,7 +185,6 @@ body{
 
 .prova p{
 	all:unset;
-
 	text-align: center;
 	transition: all .2s ease-in-out;
 	color:#FFA07A;
@@ -196,12 +195,6 @@ body{
 	padding-top: 20px;
 	padding-right: 20px;
 	padding-top: 20px;
-}
-.container-eu main{
-	unset:all;
-}
-.container-eu {
-	width:100% !important
 }
 
 .container-eu> .flex-container> p {
