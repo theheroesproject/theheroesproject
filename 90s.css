@@ -21,7 +21,6 @@ body{
 	margin-top:20px;
 	color:white;
 	}
-
 p{
 	font-weight:600;
 	letter-spacing:1px;
@@ -100,10 +99,10 @@ nav{
 	top:0;
 	left:auto;
 	right:auto;
-	font-size:18px !important;
+	font-size:16px !important;
 	line-height:22px;
-	max-height:35px;
-	background-color:rgba(240,0,255,0.5);
+	max-height:30px;
+	background-color:rgba(240,0,255,0.5) !important;
 }
  header:hover{
   	color:#001eff;
