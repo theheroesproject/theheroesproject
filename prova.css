@@ -221,11 +221,12 @@ width:100% !important;
 	background-size: cover;
 	background-position: center; 
   	overflow: hidden; 
+	height:auto;
 }
 
 
 .flex-container {
-	width:100%;
+	width:50%;
 
 display: -webkit-flex;
 display: flex;
