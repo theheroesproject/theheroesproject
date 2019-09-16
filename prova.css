@@ -69,7 +69,7 @@ header p{
 
 #header nav {
 	all:unset;
-	font-size:10px;
+	font-size:13px;
 	transform:scale (1.3);
 }
 	 
@@ -147,6 +147,7 @@ main{
 	column-rule-style: dashed;
 	column-rule-color: white;
 	column-span:all;
+	column-fill:balance;
 
 }
 
