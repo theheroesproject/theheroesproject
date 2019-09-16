@@ -175,10 +175,8 @@ main {
 
 header > img {
     column-span: all;
-    float: right;
-    top: 100px;
-    right: 50px;
-    display: inline-block;
+    top: 20%;
+    right: 30%;
     position: absolute;
 
 }
