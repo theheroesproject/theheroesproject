@@ -237,11 +237,11 @@ footer#footer nav{
 	font-size:16px;
 	line-height:20px;
 	max-heigh:32px;
+	width:100%;
 	background-color:rgba(240,0,255,0.5);
 }
 #footer{
 	all:unset;
-	color:rgb(77,238,234);
 	width:100%
 }
 
