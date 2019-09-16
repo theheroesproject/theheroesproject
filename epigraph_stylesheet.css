@@ -310,9 +310,8 @@ border-left: none;
 /* mediaaa */
 @media only screen and (max-width: 600px) {
 	body{ 
-		width: 75%;
-		margin-left:5px;
-		margin-right:5px;
+		width: 100%;
+		
 	}
 }
 	
