@@ -24,7 +24,7 @@ body{
 p{
 	font-weight:600;
 	letter-spacing:1px;
-	margin-top:5px;
+	margin-top:10px;
 	}
 h1 {
   -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
@@ -109,6 +109,7 @@ header{
 	all:unset;
 	position:fixed;
 	top:0;
+	overflow:hidden;
 	color:white;
 	font-family:game1 !important;
 	font-size:16px;
@@ -175,8 +176,8 @@ p:nth-child(even) {
 img {
 	border: 3px dotted yellow;
 	padding: 5px;
-	margin: 20px auto;
-	margin-left:70px;
+	margin: 25px auto;
+	margin-left:75px;
 	width: 25%;
 	margin-bottom:0;
 	opacity:1.0;
@@ -314,6 +315,12 @@ li{
 	margin-top:250px;
 	letter-spacing:2px;
 	font-family:roco, sans-serif;
+}
+ul{
+	margin-top:10px;
+}
+li{
+	margin-top:5px;
 }
 td:hover{
 	background:#74ee15;
