@@ -96,16 +96,9 @@ header{
 }
 #header{
 	all:unset;
-	position:fixed;
+	position:absolute;
 	top:0;
 }
-header#header nav{
-	all:unset;
-	font-size:120%;
-	line-height:22px;
-	max-heigh:32px;
-	font-weight:500;
-	top:0% !important;
 .links{
 	all:unset;
 	overflow:hidden;
@@ -253,7 +246,7 @@ footer p:nth-child(even){
 #footer{
 	all:unset;
 	width:100%;
-	position:fixed;
+	position:absolute;
 	bottom:0;
 	width:100%;
 	background-color:rgba(240,0,255,0.5);
