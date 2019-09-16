@@ -201,7 +201,7 @@ body{
 	unset:all;
 }
 .container-eu {
-	unset:all;
+	width:100% !important
 }
 
 .container-eu> .flex-container> p {
@@ -239,6 +239,7 @@ padding: 20px;
 
 
 .container-eu .flex-container .col-ing {
+	unset:all;
 
 margin-top: 30px;
 -webkit-flex: 1;
@@ -250,6 +251,7 @@ margin-right:10px;
 
 
 .container-eu .flex-container .col-ita {
+	unset:all;
 
 margin-top: 30px;
 -webkit-flex: 1;
