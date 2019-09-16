@@ -115,8 +115,9 @@ header#header nav{
 	background-color:rgba(240,0,255,0.5);
 	width:100%
 	}
+	
 
-.links a{
+#header.links a, #footer.links a{
 	float: left;
   	display: inline-block;
 	background-color:rgba(240,0,255,0.5);
@@ -124,7 +125,8 @@ header#header nav{
   	text-align: center;
  	text-decoration: none;
 }
-.link a:hover{
+#header.links a:hover, #footer.links a:hover{
+	all:unset;
 	color:white;
 	}
 header p{
