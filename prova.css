@@ -1,6 +1,6 @@
 
 img {
-	width:50%;
+	width:50%%;
 	margin-top: 10px;
 	margin-left: 10px;
     margin-right: 10px;
@@ -168,8 +168,8 @@ main{
 }
 
 .prova{
-	background-color: white;
-	background-image: url("giphy.gif") !important;
+	
+	background-image: url("images/giphy.gif") !important;
 	text-align: center;
 	transition: all .2s ease-in-out;
 	color:#FFA07A;
