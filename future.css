@@ -171,8 +171,7 @@ overflow: auto;
 width: 40%;
 max-width: 960px; 
 max-height: 500px;
-margin-left: 450px;
-margin-top: 500px;
+
 margin-bottom: 90px;
 display: inline-block;
 font-family: 'stylefuture', serif;
@@ -264,25 +263,7 @@ margin-left:10px;
 
 
 
-/* width */
-article::-webkit-scrollbar {
-width: 5px;
-}
-/* Track */
-article::-webkit-scrollbar-track {
-background: #1AC484;
-box-shadow: inset 0 0 5px grey; 
-border-radius: 5px;
-}
-/* Handle */
-article::-webkit-scrollbar-thumb {
-background: #2F6336; 
-border-radius: 5px;
-}
-/* Handle on hover */
-article::-webkit-scrollbar-thumb:hover {
-background: #033B60; 
-}
+
 /* width */
 ::-webkit-scrollbar {
 width: 5px;
