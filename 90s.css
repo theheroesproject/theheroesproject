@@ -106,9 +106,25 @@ header#header nav{
 	max-heigh:32px;
 	font-weight:500;
 	top:0% !important;
-	color:white;
+.links{
+	all:unset;
+	overflow:hidden;
+	position:fixed;
+	top:0;
 	background-color:rgba(240,0,255,0.5);
+	width:100%
+	}
+.links a{
+	float: left;
+  	display: block;
+  	text-align: center;
+ 	text-decoration: none;
 }
+.link a:hover{
+	color:white;
+	}
+	
+	
 header#header nav:hover{
 	all:unset;
 }
