@@ -253,7 +253,7 @@ li{
 	text-align:justify;
 	line-height:20px;
 }
-header #header{
+#header nav{
 	all:unset;
 }
 nav{
