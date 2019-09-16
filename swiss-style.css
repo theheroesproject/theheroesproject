@@ -140,8 +140,7 @@ main {
   -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
   -moz-column-gap: 40px; /* Firefox */
   column-gap: 40px;
-    column-rule-style: solid; 
-  column-rule-width: 5px;
+    column-rule-style: solid;
   column-rule-color:black;
     width: 100%;
 
