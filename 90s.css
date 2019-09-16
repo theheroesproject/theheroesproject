@@ -95,19 +95,22 @@ header{
   	font-family:game2;
 }
 header#header nav{
-	all:unset
+	all:unset;
 }
 #header{
 	position:absolute;
-	all:unset !mportant;
+	all:unset !important;
 	width:100%;
 	margin-left:0;
 	margin-right:0;
+	padding-left:0;
+	padding-right:0;
 }
 #header.links{
 	all:unset;
 	position:absolute;
 	top:0;
+	font-family:game1 !important;
 	font-size:16px;
 	background-color:rgba(240,0,255,0.5);
 	width:100%
