@@ -78,20 +78,6 @@ h1:before
 	filter:blur(40px);
 	margin-left:0;
 }
-header #header{
-	all:unset;
-#header, nav{
-	all:unset !important;
-	display:inline-block;
-	position:fixed;
-	top:0;
-	left:auto;
-	right:auto;
-	font-size:18px !important;
-	line-height:22px;
-	max-height:35px;
-	background-color:rgba(240,0,255,0.5);
-}
 header{
   	margin-top:10%;
   	font-family:roco;
@@ -104,12 +90,24 @@ header{
   	margin-top:20%;
   	padding-top:30px;
   }
+header #header{
+	all:unset;
+	}
+nav{
+	all:unset !important;
+	display:inline-block;
+	position:fixed;
+	top:0;
+	left:auto;
+	right:auto;
+	font-size:18px !important;
+	line-height:22px;
+	max-height:35px;
+	background-color:rgba(240,0,255,0.5);
+}
  header:hover{
   	color:#001eff;
   	font-family:game2;
-}
-#header:hover{
-	font-family:roco;
 }
 	
 main{
