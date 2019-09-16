@@ -176,8 +176,8 @@ main {
 header > img {
     column-span: all;
     float: right;
-    margin-top: 100px;
-    margin-right: 50px;
+    top: 100px;
+    right: 50px;
 
 }
 
