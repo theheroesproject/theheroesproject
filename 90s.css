@@ -94,7 +94,16 @@ header{
   	color:#001eff;
   	font-family:game2;
 }
-
+header#header nav{
+	all:unset
+}
+#header{
+	position:absolute;
+	all:unset !mportant;
+	width:100%;
+	margin-left:0;
+	margin-right:0;
+}
 #header.links{
 	all:unset;
 	position:absolute;
