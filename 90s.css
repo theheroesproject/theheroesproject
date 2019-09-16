@@ -82,16 +82,10 @@ header #header nav{
 	all:unset;
 	top:0 !important;
 	margin-left:auto;
-  	margin-top:0;
-  	padding-top:0;
+	margin-right:auto;
+  	margin-top:0 !important;
+  	padding-top:0 !important;
 	position:absolute;
-	font-size:18px !important;
-	line-height:22px;
-	max-height:35px;
-	background-color:rgba(240,0,255,0.5);
-}
-nav{
-	top:0 !important;
 	font-size:18px !important;
 	line-height:22px;
 	max-height:35px;
