@@ -63,7 +63,7 @@ header:nth-of-type(2){
 	border-radius:35px;
 }
 
-header h1 h2 h3{
+header h1, h2, h3{
 	background-image: url("images/giphy.gif");
 }
 	
@@ -72,12 +72,12 @@ header h1 h2 h3{
 	
 
 header p{
-	/*unset: all !important; */
+	unset: all;
 	/*background-image: url("images/giphy.gif"); */
 	text-shadow: .07em .07em 0 #FF3743, .1em .1em 0 white;
 	text-align: center;
 	transition: all .2s ease-in-out;
-	color:white;
+	color:#FFA07A;
 	font-size: 15px;
 	margin-bottom: 50px;
 	opacity: 0.9;
