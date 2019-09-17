@@ -127,6 +127,9 @@ h4 {
 
 }
 
+footer h4 {
+    position: relative;
+}
 main {
   padding-top: 30px; 
   padding-left: 10px;
