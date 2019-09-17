@@ -323,14 +323,8 @@ opacity: 1;
 border-left: none;
 }
 
-.col-ita {
-	width: 50%;
-}
-
-
-
-.col-eng {
-  width: 50%;
+main{
+	width:100%;
 }
 
 /* mediaaa */
