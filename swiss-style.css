@@ -62,6 +62,7 @@ p {
    margin-top: 45px;
     text-overflow: visible;
     white-space: nowrap;
+    word-wrap: break-word;
 }
 
 
@@ -143,6 +144,7 @@ main {
   column-rule-color:black;
     width: 100%;
     overflow-x: hidden;
+    word-wrap: break-word;
 
 }
 
