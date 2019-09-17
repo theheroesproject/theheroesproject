@@ -5,7 +5,6 @@ img {
 	margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
-    filter:hue-rotate(90deg);
  }
 
 .bg {
@@ -89,7 +88,7 @@ header:nth-of-type(2) > p{
 }
 	
 
-main:nth-of-type(2) > p {
+p:not(:first-child) {
 	border-style:dashed;
 	transition: 1s box-shadow;
 	color:white;
@@ -155,7 +154,7 @@ main{
 
 }
 
-main:nth-of-type(2) > p:hover{
+ p:not(:first-child):hover{
 	background-color: #FFA07A;
 	text-shadow:.07em .07em 0 #FF3743, .1em .1em 0 white;
 	transform: scale(1.5);
