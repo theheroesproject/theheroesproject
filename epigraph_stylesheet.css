@@ -239,7 +239,7 @@ container-eu .flex-container .col-ing {
 margin-top: 30px;
 -webkit-flex: 1;
 flex: 1;
-margin-left:0;
+width:50%;
 margin-right:15px;
 }
 
@@ -249,7 +249,7 @@ margin-top: 30px;
 -webkit-flex: 1;
 flex: 1;
 margin-left:15px;
-margin-right:15px;
+width:50%;
 }
 
 
