@@ -56,13 +56,11 @@ p {
   color: #E21F1F;
   padding: 20px;
   letter-spacing: 2px;
-  line-height: 200%;
   font-size: 12px;
   text-align: justify;
-  margin-bottom: 15px;
-   margin-top: 15px;
-    top: 50px;
-    text-overflow: ellipsis;
+  margin-bottom: 45px;
+   margin-top: 45px;
+    text-overflow: visible;
     white-space: nowrap;
 }
 
