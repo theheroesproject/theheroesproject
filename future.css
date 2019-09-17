@@ -75,7 +75,7 @@ main {
   padding-top: 5px;
   margin-left: 400px;
   height: 500px;
-  width: 400px;
+  width: 900px;
   max-width: 960px;
   max-height: 500px;
   margin-top: 300px;
@@ -84,7 +84,7 @@ main {
   font-size: 11pt;
   letter-spacing: .06em;
   background-color: rgba(0, 173, 255, 0.13);
-overflow-x: hidden;
+overflow-x: auto;
   overflow-y: scroll;
   background-image: url('images/voice-recognition.png');
   background-repeat: no-repeat;
