@@ -180,9 +180,7 @@ figure:hover figcaption {
 
  
 .container-eu {
-    margin: 3% 12%; 
-    padding-left: 20px; 
-    padding-right: 50px;  
+    margin: auto; 
     padding-top: 20px;  
     padding-bottom: 40px; 
     text-align: justify; 
@@ -199,7 +197,6 @@ figure:hover figcaption {
 .container-eu .flex-container {
 display: -webkit-flex;
 display: flex;
-margin: 0 auto;
 margin-top: 20px;
 margin-bottom: 20px;
 }
@@ -239,10 +236,8 @@ container-eu .flex-container .col-ing {
 margin-top: 30px;
 -webkit-flex: 1;
 flex: 1;
-margin-left:15px;
 margin-right:15px;
 width:50%;
-
 
 }
 
@@ -252,7 +247,6 @@ margin-top: 30px;
 -webkit-flex: 1;
 flex: 1;
 margin-left:15px;
-margin-right: 15px;
 width:50%;
 
 }
