@@ -740,7 +740,29 @@ figcaption {word-break: break-all;
 @media (min-width: 992px) { ... }
 
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) { main {
+  width: 1050px;
+  background-color: #ecded1;
+  color: #161615;   
+}
+
+/* always include a fallback font in case something goes wrong*/
+
+ p, footer { 
+  font-family: 'Work Sans', Fallback, sans-serif;
+  background-color: #ecded1;
+  color: #161615;
+  text-transform: lowercase;
+  font-size: 13px;
+  text-align: justify;
+  margin-left: 340px;
+  margin-right: 340px;
+  text-justify: inter-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+} }
 
 /* here is the styling for links, I decided to make a link yet to click red, and
 one that is clicked with a strike-through line */
