@@ -104,6 +104,10 @@ p:not(:first-child) {
 
 }
 
+p:first-child{
+	unset: all;
+}
+
 
 
 body{
