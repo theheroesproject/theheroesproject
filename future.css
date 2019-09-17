@@ -61,7 +61,14 @@ header {
   color: #637bff;
    height: 50%;
    line-height: 2;
-   
+   background-repeat:no-repeat;
+background-image: url('images/alien2.gif');
+background-size: 230px;
+  background-color: #050098;
+border: 1px solid rgba(0,121,171,0.2);
+color: rgb(0, 50, 93);
+text-align: justify;
+border-radius: 5px;
 }
 
 figcaption {
