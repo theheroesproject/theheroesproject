@@ -12,10 +12,6 @@ img {
 	text-align: center;
 }
 
-p:hover{
-	background-color: #FFA07A;
-	text-shadow: .07em .07em 0 #FF3743, .1em .1em 0 white;
-}
 
 table{
 	border-style: groove;
@@ -64,32 +60,6 @@ header:nth-of-type(2){
 	border-radius:35px;
 }
 
-header h1, h2, h3{
-	background-image: url("images/giphy.gif");
-}
-	
-
-
-	
-
-header p{
-	unset: all;
-	/*background-image: url("images/giphy.gif"); */
-	text-shadow: .07em .07em 0 #FF3743, .1em .1em 0 white;
-	text-align: center;
-	transition: all .2s ease-in-out;
-	color:#FFA07A;
-	font-size: 15px;
-	margin-bottom: 50px;
-	opacity: 0.9;
-	padding-bottom: 20px;
-	padding-top: 20px;
-	padding-right: 20px;
-	padding-top: 20px;
- }
-
-
-
 
 #footer nav{
 	font-size:13px;
@@ -109,8 +79,16 @@ a:link{
 header:hover{
 	transform: scale(1.3);}
 
+header h1, h2, h3{
+	background-image: url("images/giphy.gif");
+}
 
-p {
+header:nth-of-type(2)> p{
+	background-image: url("images/giphy.gif");
+}
+	
+
+main:nth-of-type(2) >p {
 	border-style:dashed;
 	transition: 1s box-shadow;
 	color:white;
@@ -129,8 +107,6 @@ p {
 }
 
 
-p:hover { transform: scale(1.5); 
-}
 
 body{
   	animation-duration: 2s;
@@ -176,6 +152,12 @@ main{
 	column-span: all;
 	column-fill:balance;
 
+}
+
+main:nth-of-type(2) > p:hover{
+	background-color: #FFA07A;
+	text-shadow:.07em .07em 0 #FF3743, .1em .1em 0 white;
+	transform: scale(1.5);
 }
 
 .prova{
