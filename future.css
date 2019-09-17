@@ -8,6 +8,42 @@
   src: url('future4.ttf');
 }
 
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-button {
+  width: 2px;
+  height: 2px;
+}
+::-webkit-scrollbar-thumb {
+  background: #c4f4ff;
+  border: 1px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #422fec;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #422fec;
+}
+::-webkit-scrollbar-track {
+  background: #c4fdf4;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #c4fdf4;
+}
+::-webkit-scrollbar-track:active {
+  background: #c4fdf4;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+
 body {
 width: 1000px;
   height: 1000px;
