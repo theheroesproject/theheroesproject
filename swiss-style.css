@@ -408,6 +408,7 @@ div h1 {
   top:0;
   left: 10%;
     width: 40%;
+    font-size: 13px;
 }
 
 
@@ -417,6 +418,7 @@ div h1 {
    transform: skewY(-6deg);
    font-size: 15px;
    margin-left: 10px;
+    font-size: 13px;
 
   
 }
@@ -424,14 +426,14 @@ div h1 {
 
   position: static;
    transform: skewY(-6deg);
-   font-size: 15px;
+  font-size: 13px;
    
 }
 
 .col-ing p {
   margin-top: 5px;
   margin-bottom: 5px;
-  
+ 
 }
 
 .col-ita p {
@@ -445,6 +447,7 @@ div h4 {
   margin-top: 5px;
   margin-bottom: 5px;
   width: 40%;
+    font-size: 13px;
 
 }
 
