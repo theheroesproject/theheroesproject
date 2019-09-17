@@ -37,29 +37,6 @@ header {
    line-height: 2;
    
 }
-main {
-
-  position: relative;
-  
- padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  box-sizing: border-box;
-  width: 40%;
-  max-width: 960px;
-  max-height: 500px;
-    margin-left: 1500px;
-  margin-top: 300px;
-  margin-bottom: 90px;
-  font-family: 'futurefont', serif;
-  font-size: 11pt;
-  letter-spacing: .06em;
-  background-color: rgba(213, 122, 255, 0.1);
-  color: black;
-overflow-x: hidden;
-  overflow-y: auto;
-}
 
 figcaption {
   margin-left: 30px;
