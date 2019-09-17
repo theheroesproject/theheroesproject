@@ -190,7 +190,7 @@ main:nth-of-type(2) > p:hover{
 	padding-top: 20px;
 }
 
-.container-eu> .flex-container> p {
+.container-eu > .flex-container > p {
 	
     width: 100% !important;
     padding-left: 50px; 
