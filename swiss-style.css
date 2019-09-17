@@ -409,6 +409,7 @@ div h1 {
   left: 10%;
     width: 40%;
     font-size: 13px;
+    word-break: keep-all;
 }
 
 
@@ -448,6 +449,7 @@ div h4 {
   margin-bottom: 5px;
   width: 40%;
     font-size: 13px;
+    word-break: keep-all;
 
 }
 
