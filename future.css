@@ -59,7 +59,25 @@ p {
   margin-left: 30px;
 }
 
-
+header:before {
+  box-sizing: content-box;
+content:"News from Earth:";
+font-family: 'futurefont', serif;
+font-style: italic;
+background-color: #033B60;
+border: 1px solid #E8E40A;
+font-size: 13pt;  
+text-align: justify;
+border-radius: 5px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-top: 10px;
+margin: auto;  
+margin-top: 8px;
+margin-bottom: 10px; 
+display: block;
+  }
 header {
   
   width: 80%;
