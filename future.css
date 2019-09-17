@@ -33,7 +33,7 @@ main:before {
 }
 
 main {
-background-image: url('https://nobleglass.net/wp-content/uploads/2018/07/Noble-Glass-Background.jpeg');
+
   position: relative;
  padding-left: 20px;
   padding-right: 20px;
@@ -48,7 +48,7 @@ background-image: url('https://nobleglass.net/wp-content/uploads/2018/07/Noble-G
   font-family: 'futurefont', serif;
   font-size: 11pt;
   letter-spacing: .06em;
-  background-color: rgba(213, 122, 255, 0.1);
+  background-color: rgba(0, 173, 255, 0.13);
   color: black;
 overflow-x: hidden;
   overflow-y: auto;
