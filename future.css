@@ -18,7 +18,7 @@ body {
 main {
 
   position: relative;
-  
+  background-image: url('images/voice-recognition.png');
  padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
