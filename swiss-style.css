@@ -407,7 +407,7 @@ div h1 {
   position: relative;
   top:0;
   left: 10%;
-    width: 40%;
+    width: 90%;
     font-size: 13px;
     word-break: keep-all;
 }
@@ -447,7 +447,7 @@ div h4 {
   position: static;
   margin-top: 5px;
   margin-bottom: 5px;
-  width: 40%;
+  width: 90%;
     font-size: 13px;
     word-break: keep-all;
 
