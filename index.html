@@ -48,6 +48,21 @@ window.onload = function(){
         annyang.start(); 
     }
 }
+    
+    {
+    if (annyang) {
+        var commands = {
+            'Show me Heroes': function() {
+                window.location.href = "http://new.website.com/that/you/want_to_go_to.html";
+            }
+        };
+        annyang.addCommands(commands);
+        annyang.start(); 
+    }
+}
+    
+    
+
 </script>
 </head>
 
