@@ -297,7 +297,6 @@ border-left: 2px solid #ffffff;
 border-left: none;
 }
 
-<style type="text/css">
 ::-webkit-scrollbar {
   width: 14px;
   height: 14px;
@@ -331,7 +330,6 @@ border-left: none;
 ::-webkit-scrollbar-corner {
   background: transparent;
 }
-</style>
 
 /* mediaaa */
 @media only screen and (max-width: 576px) {
