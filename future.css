@@ -54,6 +54,7 @@ width: 1000px;
  background-repeat: no-repeat;
  background-size: cover;
 background-position: left center;
+  margin: 0 auto;
   }
 h1 {
   margin-left: 150px;
@@ -87,6 +88,9 @@ main {
 overflow-x: hidden;
   overflow-y: auto;
   background-image: url('images/voice-recognition.png');
+  background-repeat: no-repeat;
+ background-size: 70px 70px;
+background-position: left center;
 }
 
 
