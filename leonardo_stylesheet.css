@@ -564,15 +564,15 @@ time {
 @media screen and (min-width: 1400px) {
   body {
  background-image: url("images/background_paper9.gif"); border-radius: 20px;
-  background-size: 1016px 1156px;  }
+  background-size: 1116px 1256px;  }
 }
 @media screen and (min-width: 1600px) {
   body {
  background-image: url("images/background_paper9.gif"); border-radius: 20px;
-  background-size: 1016px 1156px;  }
+  background-size: 1116px 1256px;  }
 }
 @media screen and (min-width: 1900px) {
   body {
  background-image: url("images/background_paper9.gif"); border-radius: 20px;
-  background-size: 1016px 1156px;  }
+  background-size: 1116px 1256px;  }
 }
