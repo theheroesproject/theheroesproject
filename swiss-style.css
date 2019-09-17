@@ -126,7 +126,11 @@ h4 {
   transform: skewY(6deg);
 
 }
-
+a {
+    font-size: 14px;
+color:#800080;
+text-decoration: underline;
+    }
 footer h4 {
     position: relative;
     bottom:70px;
