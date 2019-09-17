@@ -93,9 +93,12 @@ header {
 	color:crimson;
 	line-height:26px !important;
 }
+header p{
+	color:crimson;
+}
 header p a{
 	color:inherit !important;
-	text-decoration:none !important
+	text-decoration:none !important;
 }
 table p a{
 	color:#fbf1e5 !important;
