@@ -15,6 +15,29 @@ body {
  background-size: cover;
   }
 
+main {
+
+  position: relative;
+  
+ padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  box-sizing: border-box;
+  width: 40%;
+  max-width: 960px;
+  max-height: 500px;
+  margin-top: 300px;
+  margin-bottom: 90px;
+  font-family: 'futurefont', serif;
+  font-size: 11pt;
+  letter-spacing: .06em;
+  background-color: rgba(213, 122, 255, 0.1);
+  color: black;
+overflow-x: hidden;
+  overflow-y: auto;
+  
+}
 
 
 p {
@@ -144,7 +167,6 @@ overflow: auto;
 width: 95%;
 max-width: 960px; 
 max-height: 500px;
-
 margin-bottom: 90px;
 display: inline-block;
 font-family: 'futurefont', serif;
@@ -160,12 +182,15 @@ background-size: 50px;
 background-repeat: no-repeat;
 background-position: left center;
 }
+
 .col-ing > div:first-of-type {
 text-align: center; 
 }
+
 .col-ita > div:first-of-type {
 text-align: center; 
 }
+
 .flex-container{
 width: 100%;
 max-width: 278px;
@@ -174,12 +199,14 @@ margin: 0 auto;
 display: -webkit-flex; /* Safari */     
 display: flex; /* Standard syntax */
 }
+
 .flex-container .col-ing{
 margin-top: 30px;
 -webkit-flex: 1; /* Safari */
 flex: 1; /* Standard syntax */
 margin-right:10px;
 }
+
 .flex-container .col-ita{
 margin-top: 30px;
 -webkit-flex: 1; /* Safari */
