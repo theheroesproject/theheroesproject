@@ -63,6 +63,7 @@ p {
     text-overflow: visible;
     white-space: nowrap;
     word-wrap: break-word;
+    width: 200px;
 }
 
 
@@ -350,6 +351,7 @@ font-size: 13px;
 border-left: 2px solid #ffffff;
 color:#ffffff;
 }
+
 .container-eu table td:nth-of-type(1) {
 border-left: none;
 }
@@ -361,7 +363,6 @@ border-left: none;
   display: inline-block;
   float: left;
   column-count: 2;
-  
   column-rule: 2px double black;
   position: absolute;
   width: 35%;
@@ -373,8 +374,7 @@ border-left: none;
   display: inline-block;
   
   column-count: 2;
-  -webkit-column-rule: 2px double black; /* Chrome, Safari, Opera */
-  -moz-column-rule: 2px double black; /* Firefox */
+  
   column-rule: 2px double black;
   position: relative;
   left: 45%;
