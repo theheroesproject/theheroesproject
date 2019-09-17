@@ -14,7 +14,6 @@ width: 100%;
  background-image: url('images/bk-future.jpeg');
  background-repeat: no-repeat;
  background-size: cover;
-  background-size: 50px;
 background-position: left center;
   }
 h1 {
@@ -28,6 +27,7 @@ h3 {
   }
 header:after {
   background-image: url('images/voice-recognition.png');
+  z-index: 9000;
 }
 main {
 background-image: url('images/bk-future.jpeg');
