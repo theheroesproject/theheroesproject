@@ -69,9 +69,10 @@ header:nth-of-type(2){
 header p{
 	/*unset: all !important; */
 	/*background-image: url("images/giphy.gif"); */
+	text-shadow: .07em .07em 0 #FF3743, .1em .1em 0 white;
 	text-align: center;
 	transition: all .2s ease-in-out;
-	color:#FFA07A;
+	color:#F53844;
 	font-size: 15px;
 	margin-bottom: 50px;
 	opacity: 0.9;
