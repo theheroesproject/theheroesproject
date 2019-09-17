@@ -400,6 +400,7 @@ div h1 {
   position: relative;
   top:0;
   left: 10%;
+    width: 40%;
 }
 
 
@@ -436,6 +437,7 @@ div h4 {
   position: static;
   margin-top: 5px;
   margin-bottom: 5px;
+  width: 40%;
 
 }
 
