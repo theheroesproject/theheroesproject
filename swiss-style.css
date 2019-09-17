@@ -58,12 +58,10 @@ p {
   letter-spacing: 2px;
   font-size: 12px;
   text-align: justify;
-  margin-bottom: 45px;
-   margin-top: 45px;
-    text-overflow: visible;
-    white-space: nowrap;
+  margin: 45px;
+   text-overflow: visible;  
    word-break: break-word;
-    width: 200px;
+    width: auto;
 }
 
 
