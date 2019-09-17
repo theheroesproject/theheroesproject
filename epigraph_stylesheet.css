@@ -203,13 +203,13 @@ margin-bottom: 20px;
 
 
 .container-eu .flex-container p {
-    font-size:15px;
+    font-size: 15px;
     line-height: 28px;    
     
 }
 
 container-eu .flex-container .col-ita p {
-    font-size:15px;
+    font-size: 15px;
     line-height: 28px;
     font-family: AncientGeek;
     text-align: justify;
@@ -220,12 +220,12 @@ container-eu .flex-container .col-ita p {
 }
 
 container-eu .flex-container .col-ing p {
-    font-size:15px;
+    font-size: 15px;
     line-height: 28px;   
     font-family: AncientGeek;
     text-align: justify;
     letter-spacing: 2px;
-    opacity:0.9;	
+    opacity: 0.9;	
 
     
 }
@@ -236,8 +236,8 @@ container-eu .flex-container .col-ing {
 margin-top: 30px;
 -webkit-flex: 1;
 flex: 1;
-margin-right:15px;
-width:50%;
+margin-right: 15px;
+width: 50%;
 
 }
 
@@ -246,8 +246,8 @@ container-eu .flex-container .col-ita {
 margin-top: 30px;
 -webkit-flex: 1;
 flex: 1;
-margin-left:15px;
-width:50%;
+margin-left: 15px;
+width: 50%;
 
 }
 
@@ -318,7 +318,7 @@ border-left: none;
 }
 
 main{
-	width:100%;
+	width: 100%;
 }
 
 /* mediaaa */
