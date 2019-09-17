@@ -276,7 +276,7 @@ border-spacing: 0;
 td, th {
 border: 3px solid #344AB6;
 height: 30px;
-color: #E21F1F;
+color: black;
 }
 
 th { background: #F3F3F3;
