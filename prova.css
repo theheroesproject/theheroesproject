@@ -55,7 +55,8 @@ header:nth-of-type(2){
 }
 
 #header nav {
-	margin-top:12px;
+	margin-top:20px;
+	padding-top:10px;
 	background-image: url("images/giphy.gif");
 	font-size:13px;
 	transform:scale (1.1) !important;
