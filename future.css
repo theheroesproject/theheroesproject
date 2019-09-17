@@ -120,9 +120,11 @@ footer {
 }
 #header nav {
   margin-bottom:20px; !important;
+  height:40px;
   }
 #footar nav {
   margin-bottom:20px; !important;
+  
   }
 header img {
   left: 70px;
