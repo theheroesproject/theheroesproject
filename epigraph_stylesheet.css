@@ -77,10 +77,14 @@ h1{
 }
 
 a:active{
-	opacity:1;
-	color:black;
+	opacity: 1;
+	color: black !important;
 }
-	
+
+a:visited{
+	opacity: 1;
+	color: black !important;
+}
 	
 
 h2{ 
@@ -91,6 +95,10 @@ h2{
 h3{
 	font-size: 30px;
 	
+}
+
+h4{
+	font-size:30px;
 }
 
 	
