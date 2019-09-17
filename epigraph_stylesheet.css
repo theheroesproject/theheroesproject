@@ -231,7 +231,7 @@ container-eu .flex-container .col-ing {
 margin-top: 30px;
 -webkit-flex: 1;
 flex: 1;
-margin-left:15px;
+margin-left:0;
 margin-right:15px;
 }
 
@@ -322,6 +322,14 @@ border-left: none;
 
 /* mediaaa */
 @media only screen and (max-width: 576px) {
+	body{ 
+		width: 100%;
+		line-height:1.5cm;
+		
+	}
+}
+
+@media only screen and (max-width: 600px) {
 	body{ 
 		width: 100%;
 		line-height:1.5cm;
