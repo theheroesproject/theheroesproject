@@ -377,27 +377,20 @@ border-left: none;
 
 
 .col-ing {
-
   display: inline-block;
   float: left;
-  column-count: 2;
-  column-rule: 2px double black;
   position: absolute;
-  width: 35%;
+  width: 50%;
   text-align: justify;
 
 }
 
 .col-ita {
   display: inline-block;
-  
-  column-count: 2;
-  
-  column-rule: 2px double black;
   position: relative;
   left: 45%;
   right: 5%;
-  width: 65%;
+  width: 50%;
   text-align: justify;
  
 
