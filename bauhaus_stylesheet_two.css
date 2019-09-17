@@ -697,6 +697,7 @@ border-right:none;
   }
 
   #first {
+      unset: all;
     font-size: 50px;
     display: block;
     height: 80px;
