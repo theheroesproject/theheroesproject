@@ -28,8 +28,10 @@ h3 {
 main:before {
   content:"";
   background-image: url('images/voice-recognition.png');
+  box-sizing: content-box;
 
 }
+
 main {
 background-image: url('images/bk-future.jpeg');
   position: relative;
@@ -82,15 +84,14 @@ margin-top: 8px;
 margin-bottom: 10px; 
 display: block;
   }
+
 header {
-  
   width: 80%;
   height: 70%;
   margin-left: auto;
   margin-right: auto;
   font-family: 'futurefont', serif;
   color: #637bff;
-   height: 50%;
    line-height: 2;
    background-repeat:no-repeat;
 background-image: url('images/alien2.gif');
