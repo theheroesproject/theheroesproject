@@ -84,12 +84,12 @@ header h1, h2, h3{
 	background-image: url("images/giphy.gif");
 }
 
-header:nth-of-type(2)> p{
+header:nth-of-type(2) > p{
 	background-image: url("images/giphy.gif");
 }
 	
 
-main:nth-of-type(2) >p {
+main:nth-of-type(2) > p {
 	border-style:dashed;
 	transition: 1s box-shadow;
 	color:white;
