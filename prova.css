@@ -67,7 +67,7 @@ header:nth-of-type(2){
 	
 
 header p{
-	unset: all !important;
+	/*unset: all !important; */
 	background-image: url("images/giphy.gif");
 	text-align: center;
 	transition: all .2s ease-in-out;
@@ -238,8 +238,8 @@ max-widht:50px;
 margin-top: 30px;
 -webkit-flex: 1;
 flex: 1;
-margin-left:auto;
-margin-right:auto;
+margin-left:15px;
+margin-right:15px;
 
 }
 
@@ -249,8 +249,8 @@ max-widht:50px;
 margin-top: 30px;
 -webkit-flex: 1;
 flex: 1;
-margin-left:auto;
-margin-right:auto;
+margin-left:15px;
+margin-right:15px;
 
 }
 
