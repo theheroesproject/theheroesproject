@@ -80,6 +80,7 @@ header:hover{
 
 header h1, h2, h3{
 	background-image: url("images/giphy.gif");
+	color:#FFA07A;
 }
 
 header:nth-of-type(2) > p{
