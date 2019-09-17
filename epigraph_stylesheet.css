@@ -181,7 +181,7 @@ figure:hover figcaption {
  
 .container-eu {
     margin: 3% 12%; 
-    padding-left: 50px; 
+    padding-left: 20px; 
     padding-right: 50px;  
     padding-top: 20px;  
     padding-bottom: 40px; 
@@ -202,7 +202,6 @@ display: flex;
 margin: 0 auto;
 margin-top: 20px;
 margin-bottom: 20px;
-padding: 20px;
 }
 
 
