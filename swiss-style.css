@@ -187,6 +187,7 @@ header figcaption {
 
 main h3 {
     position: relative;
+    top: 10px;
     
     }
 header > img {
