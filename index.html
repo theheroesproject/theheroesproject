@@ -40,26 +40,23 @@
 window.onload = function(){
     if (annyang) {
         var commands = {
+          'show me *heroes': showHeroes,
             'Hello': function() {
                 alert('Hi! I can hear you.');
             }
         };
+      
+      var showHeroes = function(heroes) {
+  var url = 'www.theheroesproject.github.io/trytimeline.html';
+  $.getJSON(url);
+}
         annyang.addCommands(commands);
         annyang.start(); 
     }
 }
     
-    {
-    if (annyang) {
-        var commands = {
-            'Show me Heroes': function() {
-                window.location.href = "http://www.theheroesproject.github.io/trytimeline.html";
-            }
-        };
-        annyang.addCommands(commands);
-        annyang.start(); 
-    }
-}
+   
+    
     
     
 
