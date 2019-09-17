@@ -118,9 +118,11 @@ footer {
   padding-right: 20px;
  
 }
-
+#header nav {
+  margin-bottom:20px; !important;
+  }
 #footar nav {
-  margin-bottom:10px; !important;
+  margin-bottom:20px; !important;
   }
 header img {
   left: 70px;
