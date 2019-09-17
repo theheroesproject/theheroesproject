@@ -35,6 +35,20 @@
   <link href="./assets/css/now-ui-kit.css?v=1.3.0" rel="stylesheet" />
   <!-- CSS Just for demo purpose, don't include it in your project -->
   <link href="./assets/demo/demo.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/1.1.0/annyang.min.js"></script>
+  <script>
+window.onload = function(){
+    if (annyang) {
+        var commands = {
+            'Hello': function() {
+                alert('Hi! I can hear you.');
+            }
+        };
+        annyang.addCommands(commands);
+        annyang.start(); 
+    }
+}
+</script>
 </head>
 
 <body class="index-page sidebar-collapse">
