@@ -71,10 +71,10 @@ main:before {
 main {
 
   position: relative;
- padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-  padding-top: 20px;
+ padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom:5px;
+  padding-top: 5px;
   margin-left: 300px;
   box-sizing: border-box;
   width: 90%;
