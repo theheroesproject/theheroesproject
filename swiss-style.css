@@ -64,7 +64,10 @@ p {
     width: auto;
 }
 
-
+p::first-letter {
+  font-size: 200%;
+  color: black;
+}
 
 h1 {
 
