@@ -39,7 +39,7 @@ header:nth-of-type(2){
 	color:#FFA07A;
 	font-size: 15px;
 	margin-top:20px;
-	margin-bottom: 50px;
+	margin-bottom: 65px;
 	opacity: 0.9;
 	padding-bottom: 20px;
 	padding-right: 20px;
@@ -333,6 +333,17 @@ border-left: none;
 
 /* mediaaa */
 @media only screen and (max-width: 576px) {
+	main{
+		column-count:1;
+	}
+	p:hover { transform: scale(1.1); 
+	
+}
+	header:hover{ transform: scale(0.5);
+	}
+}
+
+@media only screen and (max-width: 600px) {
 	main{
 		column-count:1;
 	}
